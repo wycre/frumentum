@@ -1,0 +1,127 @@
+#Freaky Friday Script
+    #By David "Aclamendo" Jones
+    #This script is not for redistribution
+#Freaky Friday Features for use in discord announcements
+    #-Spiders now heal the player
+    #-Stone now drops gravel
+    #-Grass blocks now drop dead bushes
+    #-At 4:20 PM every in-game day, a PSA will display
+    #-When a sheep regrows it's wool, a giant spruce tree will grow
+    #-The Vietcong will emerge from decaying leaves
+    #-Squid rain upon filling buckets
+    #-Storing items will give you a new friend
+    #-Fireworks will give you a new friend
+    #-Primed TNT is spawned when TNT explodes
+    #-Eating sweet berries will plant a bush beneath you
+    #-Mining lapis lazuli ore will reward 10x experience
+    #-Granite, andesite, & diorite are now more useless
+    #-Golden apples have a new suprise!
+	#-Llamas will instant kill you
+options:
+	version: 1.0.0
+	
+	study: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lStudies show that you are all retarded."
+	phub: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lBro check out this link:&b&n https://www.pornhub.com/view_video.php?viewkey=ph5d3cca29e66df"
+	ngay: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lWoah... &b&nhttps://i.imgur.com/amIDXKV.png"
+	robux: "&4&l[&9&lPublic Service Announcement&4&l]&r &lFree Robux Tutorial!!! &b&nhttps://youtu.be/dQw4w9WgXcQ"
+	shit: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lBorn to shit, forced to wipe."
+	nomeme: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lThere is no meme, take off your clothes."
+	hentai: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lDid you know: the assasination of Archduke Franz Ferdinand led to the invention of &d&lhentai!"
+	rick: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lLearn more about this server at &b&nhttp://info.frumentum-mc.net/"
+
+on script load:
+	send "&b[Skript] Freaky Friday &6{@version} &bLoaded" to console
+
+on damage:
+	if victim is player:
+		if victim does not have permission "skript.damage":
+			if attacker is spider:
+				broadcast "%victim%"
+				cancel event
+				heal victim by 3
+	if name of victim is "&cVietcong":
+		if event-damagecause is fall:
+			cancel event
+	if attacker is llama:
+		kill victim
+		broadcast "%victim% was killed by llama"
+
+on break:
+	if block is stone:
+		cancel event
+		delete block
+		drop gravel
+	else if block is grass block:
+		cancel event
+		delete block
+		drop dead bush
+	else if block is diorite:
+		cancel event
+		delete block
+		drop andesite
+	else if block is andesite:
+		cancel event
+		delete block
+		drop granite
+	else if block is granite:
+		cancel event
+		delete block
+		drop diorite
+
+at 4:20pm in "survival":
+	set {_meme2::*} to {@study}, {@ngay}, {@robux}, {@shit}, {@nomeme}, {@hentai}, {@rick} and {@phub}
+	set {_meme2} to random element out of {_meme2::*} 
+	broadcast {_meme2}
+
+on sheep grow wool:
+	create giant redwood tree below event-entity
+
+on leaves decay:
+	spawn 1 pillager
+	set name of last spawned entity to "&cVietcong"
+	apply potion of slow falling to last spawned entity
+
+on bucket fill:
+	spawn 1 squid 5 above event-player
+	wait 5 tick
+	spawn 1 squid 5 above event-player
+	wait 5 tick
+	spawn 1 squid 5 above event-player
+	wait 5 tick
+	spawn 1 squid 5 above event-player
+	wait 5 tick
+	spawn 1 squid 5 above event-player
+	wait 5 tick
+
+on store:
+	spawn 1 llama 2 behind player
+	set name of last spawned entity to "&6Hi There!"
+
+on explosion:
+	if event-entity is primed tnt:
+		spawn tnt
+
+on firework explode:
+	wait 1 tick
+	spawn 1 fox
+	apply potion of slow falling to last spawned entity
+	wait 1 tick
+	set name of last spawned entity to "&6Hi There!"
+
+on consume:
+	if event-item is sweet berries:
+		set block at player to sweet berry bush
+	if event-item is golden apple:
+		create lightning at player
+
+block break xp drop:
+	if block is lapis lazuli ore:
+		set block xp to block xp * 10
+
+#command /kyle:
+#	permission: skript.kyle
+#	cooldown: 1 hour
+#	cooldown message: &cPlease wait &e%remaining% &cbefore doing that again
+#	trigger:
+#		set all blocks below player to barrier
+#		set block at player to air

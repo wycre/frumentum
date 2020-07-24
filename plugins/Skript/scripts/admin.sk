@@ -1,0 +1,56 @@
+options:
+	version: 1.0.0
+
+on script load:
+	send "&b[Skript] AdminMenu &6{@version} &bLoaded" to console
+
+command /punish [<text>]:
+	aliases: /pu
+	trigger:
+		if player has permission "skript.admin":
+			if arg-1 is set:
+				if arg-1 parsed as a player is set:
+					set {_t} to arg-1 parsed as a player
+					open chest with 2 rows named "Punish %{_t}%" to player
+
+					set slot 3 of player's current inventory to paper named "&aWarn" with lore "Warn this motherfucker"
+					set slot 4 of player's current inventory to jukebox named "&eShut this guy up" with lore "Will stop %{_t}% from using /meme"
+					set slot 5 of player's current inventory to stone sword named "&cBan this dude" with lore "Will ban %{_t}%" without any NBT
+					set slot 13 of player's current inventory to jukebox named "&eLet memes be dreams" with lore "Will allow %{_t}% to use /meme"
+
+
+				else:
+					send "The player &c%arg-1% &7is not found."
+			else:
+				send "You have to give up a &cplayer &7to punish."
+		else:
+			send "&cThats an admin command loser"
+
+on inventory click:
+	if type of clicked inventory is chest inventory:
+		if inventory name of player's current inventory starts with "Punish ":
+			cancel event
+			set {_name::*} to inventory name of player's current inventory split at " "
+			set {_target} to {_name::2}
+			set {_target} to {_target} parsed as an offline player
+
+			if clicked slot is 3:
+				close player's inventory
+				send "You have warned %{_target}%&7."
+				send "You have been warned." to {_target}
+
+			else if clicked slot is 4:
+				close player's inventory
+				execute console command "/pex user %{_target}% add -skript.meme"
+				send "%{_target}% can no longer use /meme"
+				send "You can no longer use /meme" to {_target}
+				
+			else if clicked slot is 5:
+				close player's inventory
+				execute console command "/ban %{_target}% Loser"
+				
+			else if clicked slot is 13:
+				close player's inventory
+				execute console command "/pex user %{_target}% remove -skript.meme"
+				send "%{_target}% can now use /meme"
+				send "You can now use /meme" to {_target}

@@ -1,0 +1,13 @@
+options:
+	version: 1.0.0
+
+on script load:
+	send "&b[Skript] OnePersonSleep &6{@version} &bLoaded" to console
+
+on bed enter:
+#	cancel event
+	wait 40 ticks
+	set time to day
+	broadcast "&b%player% &e&lhas slept, and skipped the night"
+	if weather is not clear:
+		clear weather

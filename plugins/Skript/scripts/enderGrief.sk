@@ -1,0 +1,12 @@
+options:
+	version: 1.0.0
+
+on script load:
+	send "&b[Skript] AntiEnderGrief &6{@version} &bLoaded" to console
+
+on enderman pickup:
+	cancel event
+
+on enderman place:
+	cancel event
+	kill the enderman

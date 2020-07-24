@@ -1,0 +1,180 @@
+options:
+#	Default Excluded Names
+
+	exname1: &cVietcong
+	exname2: &6Hi There!
+
+#	STYLE 1
+
+	style1: &f%{_1}% &c❤
+
+#	STYLE 2
+
+	style2: &f%{_1}%/%{_2}% &c❤
+
+#	STYLE 3
+	startIn: &7[
+	displayHealth: &a░
+	displayDamage: &c░
+	endIn: &7]
+
+	prefix: &8[&a&lHealth&c&lBar&8] &r
+
+	barEnable: &7The health bar was &aactivated
+	barDisable: &7The health bar was &cdeactivated
+
+	youSelectStyle: &7You selected the style
+
+	noPermission: &cYou do not have permissions to do that!
+
+	subcommandDoesNotExist: &7There was a problem with your request (⌐■_■)
+
+	skReloaded: &7Script reloaded!
+
+	loadName: &aHealth&cbar &fv
+	version: 2.0.0 -- Acl
+
+on script load:
+	if {healtbar.status} is not set:
+		set {healtbar.status} to true
+	if {healthbar.style} is not set:
+		set {healthbar.style} to 3
+	send "&b[Skript] HealthBar &6{@version} &bLoaded" to console
+
+command /healthbar [<text>] [<text>]:
+	permission: healthbar.admin
+	permission message: {@noPermission}
+	trigger:
+		if arg-1 is not set:
+			set {_1} to player's health
+			set {_2} to player's max health
+			open chest with 1 row named "&8         HealthBar Config" to player
+			format slot 0 of player with gray stained glass pane named "&7" to be unstealable
+			format slot 1 of player with redstone named "&7Reload script" to close then run [make player execute command "/healthbar reload"]
+			format slot 2 of player with gray stained glass pane named "&7" to be unstealable
+			format slot 3 of player with compass named "&7Style 1" with lore "&7Style: {@style1}" to close then run [make player execute command "/healthbar style1"]
+			format slot 4 of player with compass named "&7Style 2" with lore "&7Style: {@style2}" to close then run [make player execute command "/healthbar style2"]
+			format slot 5 of player with compass named "&7Style 3" with lore "&7Style: {@startIn}{@displayHealth}{@displayHealth}{@displayHealth}{@displayHealth}{@displayHealth}{@displayHealth}{@displayHealth}{@displayDamage}{@displayDamage}{@displayDamage}{@endIn}" to close then run [make player execute command "/healthbar style3"]
+			format slot 6 of player with gray stained glass pane named "&7" to be unstealable
+			format slot 7 of player with lever named "&aOn&7/&cOff" with lore "&7Disable/Enable the global visibility of the health bar" to close then run [make player execute command "/healthbar toggle"]
+			format slot 8 of player with gray stained glass pane named "&7" to be unstealable
+		else if arg-1 is "toggle":
+			if {healtbar.status} is true:
+				set {healtbar.status} to false
+				send "{@prefix}{@barDisable}"
+			else if {healtbar.status} is false:
+				set {healtbar.status} to true
+				send "{@prefix}{@barEnable}"
+		else if arg-1 is "style1":
+			set {healthbar.style} to 1
+			send "{@prefix}{@youSelectStyle} 1" to player
+		else if arg-1 is "style2":
+			set {healthbar.style} to 2
+			send "{@prefix}{@youSelectStyle} 2" to player
+		else if arg-1 is "style3":
+			set {healthbar.style} to 3
+			send "{@prefix}{@youSelectStyle} 3" to player
+		else if arg-1 is "reload":
+			execute console command "/sk reload %script%"
+			send "{@prefix}{@skReloaded}"
+		else:
+			send "{@prefix}{@subcommandDoesNotExist}" to player
+
+on death of player:
+	if attacker's display name contains "{@startIn}":
+		if attacker's display name contains "{@endIn}":
+			if attacker's display name contains "{@displayHealth}" or "{@displayDamage}":
+				delete attacker's display name
+	else if attacker's display name contain "%attacker's health%":
+		delete attacker's display name
+
+function drawHealthbar(length: number, percent: number) :: text:
+	set {_graph} to "{@startIn}"
+	set {_values} to rounded ({_length}/100)*(rounded {_percent})
+	loop {_length} times:
+		loop-number <= {_values}:
+			set {_graph} to "%{_graph}%{@displayHealth}"
+		else:
+			set {_graph} to "%{_graph}%{@displayDamage}"
+	set {_graph} to "%{_graph}%{@endIn}"
+	return {_graph}
+
+on damage:
+	set {_vicname} to name of victim
+	if {healtbar.status} is true:
+		if victim is not a player:
+			if name of victim is "{@exname1}":
+				stop
+			else if name of victim is "{@exname2}":
+				stop
+			else if "%{exname::*}%" contains "%{_vicname}%":
+				stop
+			else if victim's max health <= 40:
+				if {healthbar.style} == 1:
+					wait 1 tick
+					set {_1} to victim's health
+					set display name of victim to "{@style1}"
+				else if {healthbar.style} == 2:
+					wait 1 tick
+					set {_1} to victim's health
+					set {_2} to victim's max health
+					set display name of victim to "{@style2}"
+				else if {healthbar.style} == 3:
+					wait 1 tick
+					set {_healthbar::%entity's uuid%} to drawHealthbar(victim's max health, victim's health/victim's max health*100)
+					set display name of victim to "%{_healthbar::%entity's uuid%}%"
+				if {healthbar.style} is 1 or 2 or 3:
+					set {_d::victim's uuid} to victim's display name
+					wait 10 seconds
+					if victim's displayname == {_d::victim's uuid}:
+						delete victim's displayname
+	else if {healtbar.status} is false:
+		stop
+
+on heal:
+	if {healtbar.status} is true:
+		if entity is not a player:
+			if entity's max health <= 40:
+				if {healthbar.style} == 1:
+					wait 1 tick
+					set {_1} to entity's health
+					set display name of entity to "{@style1}"
+				else if {healthbar.style} == 2:
+					wait 1 tick
+					set {_1} to entity's health
+					set {_2} to entity's max health
+					set display name of entity to "{@style2}"
+				else if {healthbar.style} == 3:
+					wait 1 tick
+					set {_healthbar::%entity's uuid%} to drawHealthbar(entity's max health, entity's health/entity's max health*100)
+					set display name of entity to "%{_healthbar::%entity's uuid%}%"
+	else if {healtbar.status} is false:
+		stop
+
+command /keepname [<text>] [<string>]:
+	permission: skript.keepname
+	trigger:
+		if arg-1 is "list":
+			send colored {exname::*}
+		if arg-1 is "add":
+			if arg-2 is set:
+				add arg-2 to {exname::*}
+			else:
+				send "&c&lMust specify name"
+		if arg-1 is "remove":
+			remove arg-2 from {exname::*}
+		if arg-1 is "help":
+			send "&4==============================================="
+			send "                         &b/keepname usage"
+			send "Set entity names to not have healthbars"
+			send ""
+			send "&2/keepname &6add &b<name>"
+			send "   &dWill add name to keepname list"
+			send ""
+			send "&2/keepname &6remove &b<name>"
+			send "   &dWill remove name from keepname list"
+			send ""
+			send "&2/Keepname &6list"
+			send "   &dWill list all preserved names"
+			send ""
+			send "&4==============================================="

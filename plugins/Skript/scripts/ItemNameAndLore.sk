@@ -1,0 +1,53 @@
+options:
+	version: 1.0.0
+
+on script load:
+	send "&b[Skript] ItemNameAndLore &6{@version} &bLoaded" to console
+
+command /itemlore [<text>] [<number>] [<string>]:
+	permission: skript.itemlore
+	trigger:
+		if arg-1 is "set":
+			if arg-2 is set:
+				if arg-3 is set:
+					set line arg-2 of lore of player's tool to colored arg-3
+					send "&6Lore Set"
+		else if arg-1 is "remove":
+			if arg-2 is set:
+				clear line arg-2 of lore of player's tool
+				send "&6Lore Removed"
+		else if arg-1 is "help":
+			send "&4==============================================="
+			send "                         &b/itemlore usage"
+			send ""
+			send "&2/lore set &b<line number> &b<lore>"
+			send "   &dWill change the desired line of lore (supports color codes)"
+			send "&2/lore remove &b<line number>"
+			send "   &dWill remove the desired line of lore"
+			send ""
+			send "&4==============================================="
+		else if arg-1 is not set:
+			send "&4==============================================="
+			send "                         &b/itemlore usage"
+			send ""
+			send "&2/lore set &b<line number> &b<lore>"
+			send "   &dWill change the desired line of lore (supports color codes)"
+			send "&2/lore remove &b<line number>"
+			send "   &dWill remove the desired line of lore"
+			send ""
+			send "&4==============================================="
+
+command /itemname [<string>]:
+	permission: skript.itemname
+	trigger:
+		if arg-1 is set:				
+			set name of player's tool to colored arg-1
+			send "&6Name Changed"
+		else if arg-1 is not set:
+			send "&4==============================================="
+			send "                         &b/itemname usage"
+			send ""
+			send "&2/itemname &b<name>"
+			send "   &dWill change the name of the item (supports color codes)"
+			send ""
+			send "&4==============================================="
