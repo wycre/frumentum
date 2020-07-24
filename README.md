@@ -3,6 +3,9 @@ Frumentum is a Minecraft server running on Paper. This is a repository to manage
 
 Server ip: frumentum-mc.net
 
+I do not claim to own any plugin content, all plugin content is property of thier respective owners. Links to plugin projects will be provided in 
+> /plugins/manifest.md
+
 
 ## Branches
 ### Master -- July 23, 2020
