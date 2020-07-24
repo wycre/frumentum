@@ -1,5 +1,7 @@
 # Frumentum
-The source files for frumentum. I use this to aid in making changes to the server before pushing to production.
+Frumentum is a Minecraft server running on Paper. This is a repository to manage files used for testing and production. 
+
+Server ip: frumentum-mc.net
 
 
 ## Branches
