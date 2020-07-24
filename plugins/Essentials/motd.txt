@@ -1,0 +1,4 @@
+&6Welcome, &9{PLAYER}&6!
+&6Type &c/help&6 for a list of commands.
+&6Type &c/features&6 to see this servers features.
+&c{ONLINE} &6Players are online - The time is &c {WORLDTIME12}
