@@ -1,0 +1,5022 @@
+'21':
+  image: givemeyourdiamonds.png
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 0.45714285714285713
+'22':
+  image: givemeyourdiamonds.png
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 0.45714285714285713
+'23':
+  image: givemeyourdiamonds.png
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 0.45714285714285713
+'24':
+  image: givemeyourdiamonds.png
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 0.45714285714285713
+'123':
+  image: .jfif
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 0.32
+'124':
+  image: .jfif
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 0.32
+'125':
+  image: .jfif
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 0.32
+'126':
+  image: .jfif
+  x: 0
+  y: 384
+  fastsend: false
+  scale: 0.32
+'127':
+  image: .jfif
+  x: 0
+  y: 512
+  fastsend: false
+  scale: 0.32
+'128':
+  image: .jfif
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 0.32
+'129':
+  image: .jfif
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 0.32
+'130':
+  image: .jfif
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 0.32
+'131':
+  image: .jfif
+  x: 128
+  y: 384
+  fastsend: false
+  scale: 0.32
+'132':
+  image: .jfif
+  x: 128
+  y: 512
+  fastsend: false
+  scale: 0.32
+'133':
+  image: .jfif
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 0.32
+'134':
+  image: .jfif
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 0.32
+'135':
+  image: .jfif
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 0.32
+'136':
+  image: .jfif
+  x: 256
+  y: 384
+  fastsend: false
+  scale: 0.32
+'137':
+  image: .jfif
+  x: 256
+  y: 512
+  fastsend: false
+  scale: 0.32
+'138':
+  image: .jfif
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 0.32
+'139':
+  image: .jfif
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 0.32
+'140':
+  image: .jfif
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 0.32
+'141':
+  image: .jfif
+  x: 384
+  y: 384
+  fastsend: false
+  scale: 0.32
+'142':
+  image: .jfif
+  x: 384
+  y: 512
+  fastsend: false
+  scale: 0.32
+'388':
+  image: president.png
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 0.20745542949756887
+'389':
+  image: obama-big.png
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 1.0
+'390':
+  image: obama-big.png
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 1.0
+'391':
+  image: obama-big.png
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 1.0
+'392':
+  image: obama-big.png
+  x: 0
+  y: 384
+  fastsend: false
+  scale: 1.0
+'393':
+  image: obama-big.png
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 1.0
+'394':
+  image: obama-big.png
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 1.0
+'395':
+  image: obama-big.png
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 1.0
+'396':
+  image: obama-big.png
+  x: 128
+  y: 384
+  fastsend: false
+  scale: 1.0
+'397':
+  image: obama-big.png
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 1.0
+'398':
+  image: obama-big.png
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 1.0
+'399':
+  image: obama-big.png
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 1.0
+'400':
+  image: obama-big.png
+  x: 256
+  y: 384
+  fastsend: false
+  scale: 1.0
+'401':
+  image: obama-big.png
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 1.0
+'402':
+  image: obama-big.png
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 1.0
+'403':
+  image: obama-big.png
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 1.0
+'404':
+  image: obama-big.png
+  x: 384
+  y: 384
+  fastsend: false
+  scale: 1.0
+'405':
+  image: obama-big.png
+  x: 512
+  y: 0
+  fastsend: false
+  scale: 1.0
+'406':
+  image: obama-big.png
+  x: 512
+  y: 128
+  fastsend: false
+  scale: 1.0
+'407':
+  image: obama-big.png
+  x: 512
+  y: 256
+  fastsend: false
+  scale: 1.0
+'408':
+  image: obama-big.png
+  x: 512
+  y: 384
+  fastsend: false
+  scale: 1.0
+'409':
+  image: obama-big.png
+  x: 640
+  y: 0
+  fastsend: false
+  scale: 1.0
+'410':
+  image: obama-big.png
+  x: 640
+  y: 128
+  fastsend: false
+  scale: 1.0
+'411':
+  image: obama-big.png
+  x: 640
+  y: 256
+  fastsend: false
+  scale: 1.0
+'412':
+  image: obama-big.png
+  x: 640
+  y: 384
+  fastsend: false
+  scale: 1.0
+'413':
+  image: obama-big.png
+  x: 768
+  y: 0
+  fastsend: false
+  scale: 1.0
+'414':
+  image: obama-big.png
+  x: 768
+  y: 128
+  fastsend: false
+  scale: 1.0
+'415':
+  image: obama-big.png
+  x: 768
+  y: 256
+  fastsend: false
+  scale: 1.0
+'416':
+  image: obama-big.png
+  x: 768
+  y: 384
+  fastsend: false
+  scale: 1.0
+'417':
+  image: obama-big.png
+  x: 896
+  y: 0
+  fastsend: false
+  scale: 1.0
+'418':
+  image: obama-big.png
+  x: 896
+  y: 128
+  fastsend: false
+  scale: 1.0
+'419':
+  image: obama-big.png
+  x: 896
+  y: 256
+  fastsend: false
+  scale: 1.0
+'420':
+  image: obama-big.png
+  x: 896
+  y: 384
+  fastsend: false
+  scale: 1.0
+'421':
+  image: obama-boobie.png
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 1.0
+'422':
+  image: obama-boobie.png
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 1.0
+'423':
+  image: obama-boobie.png
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 1.0
+'424':
+  image: obama-boobie.png
+  x: 0
+  y: 384
+  fastsend: false
+  scale: 1.0
+'425':
+  image: obama-boobie.png
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 1.0
+'426':
+  image: obama-boobie.png
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 1.0
+'427':
+  image: obama-boobie.png
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 1.0
+'428':
+  image: obama-boobie.png
+  x: 128
+  y: 384
+  fastsend: false
+  scale: 1.0
+'429':
+  image: obama-boobie.png
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 1.0
+'430':
+  image: obama-boobie.png
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 1.0
+'431':
+  image: obama-boobie.png
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 1.0
+'432':
+  image: obama-boobie.png
+  x: 256
+  y: 384
+  fastsend: false
+  scale: 1.0
+'433':
+  image: obama-boobie.png
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 1.0
+'434':
+  image: obama-boobie.png
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 1.0
+'435':
+  image: obama-boobie.png
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 1.0
+'436':
+  image: obama-boobie.png
+  x: 384
+  y: 384
+  fastsend: false
+  scale: 1.0
+'437':
+  image: obama-boobie.png
+  x: 512
+  y: 0
+  fastsend: false
+  scale: 1.0
+'438':
+  image: obama-boobie.png
+  x: 512
+  y: 128
+  fastsend: false
+  scale: 1.0
+'439':
+  image: obama-boobie.png
+  x: 512
+  y: 256
+  fastsend: false
+  scale: 1.0
+'440':
+  image: obama-boobie.png
+  x: 512
+  y: 384
+  fastsend: false
+  scale: 1.0
+'441':
+  image: obama-boobie.png
+  x: 640
+  y: 0
+  fastsend: false
+  scale: 1.0
+'442':
+  image: obama-boobie.png
+  x: 640
+  y: 128
+  fastsend: false
+  scale: 1.0
+'443':
+  image: obama-boobie.png
+  x: 640
+  y: 256
+  fastsend: false
+  scale: 1.0
+'444':
+  image: obama-boobie.png
+  x: 640
+  y: 384
+  fastsend: false
+  scale: 1.0
+'445':
+  image: obama-boobie.png
+  x: 768
+  y: 0
+  fastsend: false
+  scale: 1.0
+'446':
+  image: obama-boobie.png
+  x: 768
+  y: 128
+  fastsend: false
+  scale: 1.0
+'447':
+  image: obama-boobie.png
+  x: 768
+  y: 256
+  fastsend: false
+  scale: 1.0
+'448':
+  image: obama-boobie.png
+  x: 768
+  y: 384
+  fastsend: false
+  scale: 1.0
+'449':
+  image: obama-boobie.png
+  x: 896
+  y: 0
+  fastsend: false
+  scale: 1.0
+'450':
+  image: obama-boobie.png
+  x: 896
+  y: 128
+  fastsend: false
+  scale: 1.0
+'451':
+  image: obama-boobie.png
+  x: 896
+  y: 256
+  fastsend: false
+  scale: 1.0
+'452':
+  image: obama-boobie.png
+  x: 896
+  y: 384
+  fastsend: false
+  scale: 1.0
+'453':
+  image: kim-jong-un.png
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 0.64
+'454':
+  image: kim-jong-un.png
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 0.64
+'455':
+  image: kim-jong-un.png
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 0.64
+'456':
+  image: kim-jong-un.png
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 0.64
+'457':
+  image: kim-jong-un.png
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 0.64
+'458':
+  image: kim-jong-un.png
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 0.64
+'459':
+  image: kim-jong-un.png
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 0.64
+'460':
+  image: kim-jong-un.png
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 0.64
+'461':
+  image: kim-jong-un.png
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 0.64
+'462':
+  image: kim-jong-un.png
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 0.64
+'463':
+  image: kim-jong-un.png
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 0.64
+'464':
+  image: kim-jong-un.png
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 0.64
+'465':
+  image: kim-cutie-un.png
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 0.8677966101694915
+'466':
+  image: kim-cutie-un.png
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 0.8677966101694915
+'467':
+  image: kim-cutie-un.png
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 0.8677966101694915
+'468':
+  image: kim-cutie-un.png
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 0.8677966101694915
+'469':
+  image: kim-cutie-un.png
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 0.8677966101694915
+'470':
+  image: kim-cutie-un.png
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 0.8677966101694915
+'471':
+  image: kim-cutie-un.png
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 0.8677966101694915
+'472':
+  image: kim-cutie-un.png
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 0.8677966101694915
+'473':
+  image: kim-cutie-un.png
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 0.8677966101694915
+'474':
+  image: kim-cutie-un.png
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 0.8677966101694915
+'475':
+  image: kim-cutie-un.png
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 0.8677966101694915
+'476':
+  image: kim-cutie-un.png
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 0.8677966101694915
+'477':
+  image: ddd
+  x: 0
+  y: 0
+  fastsend: true
+  scale: 1.0
+'478':
+  image: ddd
+  x: 0
+  y: 128
+  fastsend: true
+  scale: 1.0
+'479':
+  image: ddd
+  x: 0
+  y: 256
+  fastsend: true
+  scale: 1.0
+'480':
+  image: ddd
+  x: 0
+  y: 384
+  fastsend: true
+  scale: 1.0
+'481':
+  image: ddd
+  x: 0
+  y: 512
+  fastsend: true
+  scale: 1.0
+'482':
+  image: ddd
+  x: 0
+  y: 640
+  fastsend: true
+  scale: 1.0
+'483':
+  image: ddd
+  x: 128
+  y: 0
+  fastsend: true
+  scale: 1.0
+'484':
+  image: ddd
+  x: 128
+  y: 128
+  fastsend: true
+  scale: 1.0
+'485':
+  image: ddd
+  x: 128
+  y: 256
+  fastsend: true
+  scale: 1.0
+'486':
+  image: ddd
+  x: 128
+  y: 384
+  fastsend: true
+  scale: 1.0
+'487':
+  image: ddd
+  x: 128
+  y: 512
+  fastsend: true
+  scale: 1.0
+'488':
+  image: ddd
+  x: 128
+  y: 640
+  fastsend: true
+  scale: 1.0
+'489':
+  image: ddd
+  x: 256
+  y: 0
+  fastsend: true
+  scale: 1.0
+'490':
+  image: ddd
+  x: 256
+  y: 128
+  fastsend: true
+  scale: 1.0
+'491':
+  image: ddd
+  x: 256
+  y: 256
+  fastsend: true
+  scale: 1.0
+'492':
+  image: ddd
+  x: 256
+  y: 384
+  fastsend: true
+  scale: 1.0
+'493':
+  image: ddd
+  x: 256
+  y: 512
+  fastsend: true
+  scale: 1.0
+'494':
+  image: ddd
+  x: 256
+  y: 640
+  fastsend: true
+  scale: 1.0
+'495':
+  image: ddd
+  x: 384
+  y: 0
+  fastsend: true
+  scale: 1.0
+'496':
+  image: ddd
+  x: 384
+  y: 128
+  fastsend: true
+  scale: 1.0
+'497':
+  image: ddd
+  x: 384
+  y: 256
+  fastsend: true
+  scale: 1.0
+'498':
+  image: ddd
+  x: 384
+  y: 384
+  fastsend: true
+  scale: 1.0
+'499':
+  image: ddd
+  x: 384
+  y: 512
+  fastsend: true
+  scale: 1.0
+'500':
+  image: ddd
+  x: 384
+  y: 640
+  fastsend: true
+  scale: 1.0
+'501':
+  image: ddd
+  x: 512
+  y: 0
+  fastsend: true
+  scale: 1.0
+'502':
+  image: ddd
+  x: 512
+  y: 128
+  fastsend: true
+  scale: 1.0
+'503':
+  image: ddd
+  x: 512
+  y: 256
+  fastsend: true
+  scale: 1.0
+'504':
+  image: ddd
+  x: 512
+  y: 384
+  fastsend: true
+  scale: 1.0
+'505':
+  image: ddd
+  x: 512
+  y: 512
+  fastsend: true
+  scale: 1.0
+'506':
+  image: ddd
+  x: 512
+  y: 640
+  fastsend: true
+  scale: 1.0
+'509':
+  image: kim-sexy-un.png
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 0.5333333333333333
+'510':
+  image: kim-sexy-un.png
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 0.5333333333333333
+'511':
+  image: kim-sexy-un.png
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 0.5333333333333333
+'512':
+  image: kim-sexy-un.png
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 0.5333333333333333
+'513':
+  image: kim-sexy-un.png
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 0.5333333333333333
+'514':
+  image: kim-sexy-un.png
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 0.5333333333333333
+'515':
+  image: kim-sexy-un.png
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 0.5333333333333333
+'516':
+  image: kim-sexy-un.png
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 0.5333333333333333
+'517':
+  image: kim-sexy-un.png
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 0.5333333333333333
+'518':
+  image: kim-sexy-un.png
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 0.5333333333333333
+'519':
+  image: kim-sexy-un.png
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 0.5333333333333333
+'520':
+  image: kim-sexy-un.png
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 0.5333333333333333
+'545':
+  image: kim-hottie-un.png
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 0.17066666666666666
+'546':
+  image: kim-hottie-un.png
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 0.17066666666666666
+'547':
+  image: kim-hottie-un.png
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 0.17066666666666666
+'548':
+  image: kim-hottie-un.png
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 0.17066666666666666
+'549':
+  image: kim-hottie-un.png
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 0.17066666666666666
+'550':
+  image: kim-hottie-un.png
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 0.17066666666666666
+'551':
+  image: kim-hottie-un.png
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 0.17066666666666666
+'552':
+  image: kim-hottie-un.png
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 0.17066666666666666
+'553':
+  image: kim-hottie-un.png
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 0.17066666666666666
+'554':
+  image: kim-hottie-un.png
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 0.17066666666666666
+'555':
+  image: kim-hottie-un.png
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 0.17066666666666666
+'556':
+  image: kim-hottie-un.png
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 0.17066666666666666
+'557':
+  image: kim-hottie-un.png
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 0.4266666666666667
+'558':
+  image: kim-hottie-un.png
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 0.4266666666666667
+'559':
+  image: kim-hottie-un.png
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 0.4266666666666667
+'560':
+  image: kim-hottie-un.png
+  x: 0
+  y: 384
+  fastsend: false
+  scale: 0.4266666666666667
+'561':
+  image: kim-hottie-un.png
+  x: 0
+  y: 512
+  fastsend: false
+  scale: 0.4266666666666667
+'562':
+  image: kim-hottie-un.png
+  x: 0
+  y: 640
+  fastsend: false
+  scale: 0.4266666666666667
+'563':
+  image: kim-hottie-un.png
+  x: 0
+  y: 768
+  fastsend: false
+  scale: 0.4266666666666667
+'564':
+  image: kim-hottie-un.png
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 0.4266666666666667
+'565':
+  image: kim-hottie-un.png
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 0.4266666666666667
+'566':
+  image: kim-hottie-un.png
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 0.4266666666666667
+'567':
+  image: kim-hottie-un.png
+  x: 128
+  y: 384
+  fastsend: false
+  scale: 0.4266666666666667
+'568':
+  image: kim-hottie-un.png
+  x: 128
+  y: 512
+  fastsend: false
+  scale: 0.4266666666666667
+'569':
+  image: kim-hottie-un.png
+  x: 128
+  y: 640
+  fastsend: false
+  scale: 0.4266666666666667
+'570':
+  image: kim-hottie-un.png
+  x: 128
+  y: 768
+  fastsend: false
+  scale: 0.4266666666666667
+'571':
+  image: kim-hottie-un.png
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 0.4266666666666667
+'572':
+  image: kim-hottie-un.png
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 0.4266666666666667
+'573':
+  image: kim-hottie-un.png
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 0.4266666666666667
+'574':
+  image: kim-hottie-un.png
+  x: 256
+  y: 384
+  fastsend: false
+  scale: 0.4266666666666667
+'575':
+  image: kim-hottie-un.png
+  x: 256
+  y: 512
+  fastsend: false
+  scale: 0.4266666666666667
+'576':
+  image: kim-hottie-un.png
+  x: 256
+  y: 640
+  fastsend: false
+  scale: 0.4266666666666667
+'577':
+  image: kim-hottie-un.png
+  x: 256
+  y: 768
+  fastsend: false
+  scale: 0.4266666666666667
+'578':
+  image: kim-hottie-un.png
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 0.4266666666666667
+'579':
+  image: kim-hottie-un.png
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 0.4266666666666667
+'580':
+  image: kim-hottie-un.png
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 0.4266666666666667
+'581':
+  image: kim-hottie-un.png
+  x: 384
+  y: 384
+  fastsend: false
+  scale: 0.4266666666666667
+'582':
+  image: kim-hottie-un.png
+  x: 384
+  y: 512
+  fastsend: false
+  scale: 0.4266666666666667
+'583':
+  image: kim-hottie-un.png
+  x: 384
+  y: 640
+  fastsend: false
+  scale: 0.4266666666666667
+'584':
+  image: kim-hottie-un.png
+  x: 384
+  y: 768
+  fastsend: false
+  scale: 0.4266666666666667
+'585':
+  image: kim-hottie-un.png
+  x: 512
+  y: 0
+  fastsend: false
+  scale: 0.4266666666666667
+'586':
+  image: kim-hottie-un.png
+  x: 512
+  y: 128
+  fastsend: false
+  scale: 0.4266666666666667
+'587':
+  image: kim-hottie-un.png
+  x: 512
+  y: 256
+  fastsend: false
+  scale: 0.4266666666666667
+'588':
+  image: kim-hottie-un.png
+  x: 512
+  y: 384
+  fastsend: false
+  scale: 0.4266666666666667
+'589':
+  image: kim-hottie-un.png
+  x: 512
+  y: 512
+  fastsend: false
+  scale: 0.4266666666666667
+'590':
+  image: kim-hottie-un.png
+  x: 512
+  y: 640
+  fastsend: false
+  scale: 0.4266666666666667
+'591':
+  image: kim-hottie-un.png
+  x: 512
+  y: 768
+  fastsend: false
+  scale: 0.4266666666666667
+'592':
+  image: kim-hottie-un.png
+  x: 640
+  y: 0
+  fastsend: false
+  scale: 0.4266666666666667
+'593':
+  image: kim-hottie-un.png
+  x: 640
+  y: 128
+  fastsend: false
+  scale: 0.4266666666666667
+'594':
+  image: kim-hottie-un.png
+  x: 640
+  y: 256
+  fastsend: false
+  scale: 0.4266666666666667
+'595':
+  image: kim-hottie-un.png
+  x: 640
+  y: 384
+  fastsend: false
+  scale: 0.4266666666666667
+'596':
+  image: kim-hottie-un.png
+  x: 640
+  y: 512
+  fastsend: false
+  scale: 0.4266666666666667
+'597':
+  image: kim-hottie-un.png
+  x: 640
+  y: 640
+  fastsend: false
+  scale: 0.4266666666666667
+'598':
+  image: kim-hottie-un.png
+  x: 640
+  y: 768
+  fastsend: false
+  scale: 0.4266666666666667
+'599':
+  image: kim-hottie-un.png
+  x: 768
+  y: 0
+  fastsend: false
+  scale: 0.4266666666666667
+'600':
+  image: kim-hottie-un.png
+  x: 768
+  y: 128
+  fastsend: false
+  scale: 0.4266666666666667
+'601':
+  image: kim-hottie-un.png
+  x: 768
+  y: 256
+  fastsend: false
+  scale: 0.4266666666666667
+'602':
+  image: kim-hottie-un.png
+  x: 768
+  y: 384
+  fastsend: false
+  scale: 0.4266666666666667
+'603':
+  image: kim-hottie-un.png
+  x: 768
+  y: 512
+  fastsend: false
+  scale: 0.4266666666666667
+'604':
+  image: kim-hottie-un.png
+  x: 768
+  y: 640
+  fastsend: false
+  scale: 0.4266666666666667
+'605':
+  image: kim-hottie-un.png
+  x: 768
+  y: 768
+  fastsend: false
+  scale: 0.4266666666666667
+'606':
+  image: kim-hottie-un.png
+  x: 896
+  y: 0
+  fastsend: false
+  scale: 0.4266666666666667
+'607':
+  image: kim-hottie-un.png
+  x: 896
+  y: 128
+  fastsend: false
+  scale: 0.4266666666666667
+'608':
+  image: kim-hottie-un.png
+  x: 896
+  y: 256
+  fastsend: false
+  scale: 0.4266666666666667
+'609':
+  image: kim-hottie-un.png
+  x: 896
+  y: 384
+  fastsend: false
+  scale: 0.4266666666666667
+'610':
+  image: kim-hottie-un.png
+  x: 896
+  y: 512
+  fastsend: false
+  scale: 0.4266666666666667
+'611':
+  image: kim-hottie-un.png
+  x: 896
+  y: 640
+  fastsend: false
+  scale: 0.4266666666666667
+'612':
+  image: kim-hottie-un.png
+  x: 896
+  y: 768
+  fastsend: false
+  scale: 0.4266666666666667
+'613':
+  image: kim-hottie-un.png
+  x: 1024
+  y: 0
+  fastsend: false
+  scale: 0.4266666666666667
+'614':
+  image: kim-hottie-un.png
+  x: 1024
+  y: 128
+  fastsend: false
+  scale: 0.4266666666666667
+'615':
+  image: kim-hottie-un.png
+  x: 1024
+  y: 256
+  fastsend: false
+  scale: 0.4266666666666667
+'616':
+  image: kim-hottie-un.png
+  x: 1024
+  y: 384
+  fastsend: false
+  scale: 0.4266666666666667
+'617':
+  image: kim-hottie-un.png
+  x: 1024
+  y: 512
+  fastsend: false
+  scale: 0.4266666666666667
+'618':
+  image: kim-hottie-un.png
+  x: 1024
+  y: 640
+  fastsend: false
+  scale: 0.4266666666666667
+'619':
+  image: kim-hottie-un.png
+  x: 1024
+  y: 768
+  fastsend: false
+  scale: 0.4266666666666667
+'620':
+  image: kim-hottie-un.png
+  x: 1152
+  y: 0
+  fastsend: false
+  scale: 0.4266666666666667
+'621':
+  image: kim-hottie-un.png
+  x: 1152
+  y: 128
+  fastsend: false
+  scale: 0.4266666666666667
+'622':
+  image: kim-hottie-un.png
+  x: 1152
+  y: 256
+  fastsend: false
+  scale: 0.4266666666666667
+'623':
+  image: kim-hottie-un.png
+  x: 1152
+  y: 384
+  fastsend: false
+  scale: 0.4266666666666667
+'624':
+  image: kim-hottie-un.png
+  x: 1152
+  y: 512
+  fastsend: false
+  scale: 0.4266666666666667
+'625':
+  image: kim-hottie-un.png
+  x: 1152
+  y: 640
+  fastsend: false
+  scale: 0.4266666666666667
+'626':
+  image: kim-hottie-un.png
+  x: 1152
+  y: 768
+  fastsend: false
+  scale: 0.4266666666666667
+'627':
+  image: kim-cutie-un.png
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 0.6508474576271186
+'628':
+  image: kim-cutie-un.png
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 0.6508474576271186
+'629':
+  image: kim-cutie-un.png
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 0.6508474576271186
+'630':
+  image: kim-cutie-un.png
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 0.6508474576271186
+'631':
+  image: kim-cutie-un.png
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 0.6508474576271186
+'632':
+  image: kim-cutie-un.png
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 0.6508474576271186
+'633':
+  image: kim-jong-un.png
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 0.48
+'634':
+  image: kim-jong-un.png
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 0.48
+'635':
+  image: kim-jong-un.png
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 0.48
+'636':
+  image: kim-jong-un.png
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 0.48
+'637':
+  image: kim-jong-un.png
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 0.48
+'638':
+  image: kim-jong-un.png
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 0.48
+'639':
+  image: veryfunny
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 1.0
+'640':
+  image: veryfunny
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 1.0
+'641':
+  image: veryfunny
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 1.0
+'642':
+  image: veryfunny
+  x: 0
+  y: 384
+  fastsend: false
+  scale: 1.0
+'643':
+  image: veryfunny
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 1.0
+'644':
+  image: veryfunny
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 1.0
+'645':
+  image: veryfunny
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 1.0
+'646':
+  image: veryfunny
+  x: 128
+  y: 384
+  fastsend: false
+  scale: 1.0
+'647':
+  image: veryfunny
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 1.0
+'648':
+  image: veryfunny
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 1.0
+'649':
+  image: veryfunny
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 1.0
+'650':
+  image: veryfunny
+  x: 256
+  y: 384
+  fastsend: false
+  scale: 1.0
+'651':
+  image: veryfunny
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 1.0
+'652':
+  image: veryfunny
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 1.0
+'653':
+  image: veryfunny
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 1.0
+'654':
+  image: veryfunny
+  x: 384
+  y: 384
+  fastsend: false
+  scale: 1.0
+'655':
+  image: veryfunny
+  x: 512
+  y: 0
+  fastsend: false
+  scale: 1.0
+'656':
+  image: veryfunny
+  x: 512
+  y: 128
+  fastsend: false
+  scale: 1.0
+'657':
+  image: veryfunny
+  x: 512
+  y: 256
+  fastsend: false
+  scale: 1.0
+'658':
+  image: veryfunny
+  x: 512
+  y: 384
+  fastsend: false
+  scale: 1.0
+'659':
+  image: veryfunny
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 0.21333333333333335
+'660':
+  image: veryfunny
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 1.1428571428571428
+'661':
+  image: veryfunny
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 1.1428571428571428
+'662':
+  image: veryfunny
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 1.1428571428571428
+'663':
+  image: veryfunny
+  x: 0
+  y: 384
+  fastsend: false
+  scale: 1.1428571428571428
+'664':
+  image: veryfunny
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 1.1428571428571428
+'665':
+  image: veryfunny
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 1.1428571428571428
+'666':
+  image: veryfunny
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 1.1428571428571428
+'667':
+  image: veryfunny
+  x: 128
+  y: 384
+  fastsend: false
+  scale: 1.1428571428571428
+'668':
+  image: veryfunny
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 1.1428571428571428
+'669':
+  image: veryfunny
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 1.1428571428571428
+'670':
+  image: veryfunny
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 1.1428571428571428
+'671':
+  image: veryfunny
+  x: 256
+  y: 384
+  fastsend: false
+  scale: 1.1428571428571428
+'672':
+  image: veryfunny
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 1.1428571428571428
+'673':
+  image: veryfunny
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 1.1428571428571428
+'674':
+  image: veryfunny
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 1.1428571428571428
+'675':
+  image: veryfunny
+  x: 384
+  y: 384
+  fastsend: false
+  scale: 1.1428571428571428
+'676':
+  image: veryfunny
+  x: 512
+  y: 0
+  fastsend: false
+  scale: 1.1428571428571428
+'677':
+  image: veryfunny
+  x: 512
+  y: 128
+  fastsend: false
+  scale: 1.1428571428571428
+'678':
+  image: veryfunny
+  x: 512
+  y: 256
+  fastsend: false
+  scale: 1.1428571428571428
+'679':
+  image: veryfunny
+  x: 512
+  y: 384
+  fastsend: false
+  scale: 1.1428571428571428
+'680':
+  image: veryfunny
+  x: 640
+  y: 0
+  fastsend: false
+  scale: 1.1428571428571428
+'681':
+  image: veryfunny
+  x: 640
+  y: 128
+  fastsend: false
+  scale: 1.1428571428571428
+'682':
+  image: veryfunny
+  x: 640
+  y: 256
+  fastsend: false
+  scale: 1.1428571428571428
+'683':
+  image: veryfunny
+  x: 640
+  y: 384
+  fastsend: false
+  scale: 1.1428571428571428
+'684':
+  image: veryfunny
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 2.1333333333333333
+'685':
+  image: veryfunny
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 2.1333333333333333
+'686':
+  image: veryfunny
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 2.1333333333333333
+'687':
+  image: veryfunny
+  x: 0
+  y: 384
+  fastsend: false
+  scale: 2.1333333333333333
+'688':
+  image: veryfunny
+  x: 0
+  y: 512
+  fastsend: false
+  scale: 2.1333333333333333
+'689':
+  image: veryfunny
+  x: 0
+  y: 640
+  fastsend: false
+  scale: 2.1333333333333333
+'690':
+  image: veryfunny
+  x: 0
+  y: 768
+  fastsend: false
+  scale: 2.1333333333333333
+'691':
+  image: veryfunny
+  x: 0
+  y: 896
+  fastsend: false
+  scale: 2.1333333333333333
+'692':
+  image: veryfunny
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 2.1333333333333333
+'693':
+  image: veryfunny
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 2.1333333333333333
+'694':
+  image: veryfunny
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 2.1333333333333333
+'695':
+  image: veryfunny
+  x: 128
+  y: 384
+  fastsend: false
+  scale: 2.1333333333333333
+'696':
+  image: veryfunny
+  x: 128
+  y: 512
+  fastsend: false
+  scale: 2.1333333333333333
+'697':
+  image: veryfunny
+  x: 128
+  y: 640
+  fastsend: false
+  scale: 2.1333333333333333
+'698':
+  image: veryfunny
+  x: 128
+  y: 768
+  fastsend: false
+  scale: 2.1333333333333333
+'699':
+  image: veryfunny
+  x: 128
+  y: 896
+  fastsend: false
+  scale: 2.1333333333333333
+'700':
+  image: veryfunny
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 2.1333333333333333
+'701':
+  image: veryfunny
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 2.1333333333333333
+'702':
+  image: veryfunny
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 2.1333333333333333
+'703':
+  image: veryfunny
+  x: 256
+  y: 384
+  fastsend: false
+  scale: 2.1333333333333333
+'704':
+  image: veryfunny
+  x: 256
+  y: 512
+  fastsend: false
+  scale: 2.1333333333333333
+'705':
+  image: veryfunny
+  x: 256
+  y: 640
+  fastsend: false
+  scale: 2.1333333333333333
+'706':
+  image: veryfunny
+  x: 256
+  y: 768
+  fastsend: false
+  scale: 2.1333333333333333
+'707':
+  image: veryfunny
+  x: 256
+  y: 896
+  fastsend: false
+  scale: 2.1333333333333333
+'708':
+  image: veryfunny
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 2.1333333333333333
+'709':
+  image: veryfunny
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 2.1333333333333333
+'710':
+  image: veryfunny
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 2.1333333333333333
+'711':
+  image: veryfunny
+  x: 384
+  y: 384
+  fastsend: false
+  scale: 2.1333333333333333
+'712':
+  image: veryfunny
+  x: 384
+  y: 512
+  fastsend: false
+  scale: 2.1333333333333333
+'713':
+  image: veryfunny
+  x: 384
+  y: 640
+  fastsend: false
+  scale: 2.1333333333333333
+'714':
+  image: veryfunny
+  x: 384
+  y: 768
+  fastsend: false
+  scale: 2.1333333333333333
+'715':
+  image: veryfunny
+  x: 384
+  y: 896
+  fastsend: false
+  scale: 2.1333333333333333
+'716':
+  image: veryfunny
+  x: 512
+  y: 0
+  fastsend: false
+  scale: 2.1333333333333333
+'717':
+  image: veryfunny
+  x: 512
+  y: 128
+  fastsend: false
+  scale: 2.1333333333333333
+'718':
+  image: veryfunny
+  x: 512
+  y: 256
+  fastsend: false
+  scale: 2.1333333333333333
+'719':
+  image: veryfunny
+  x: 512
+  y: 384
+  fastsend: false
+  scale: 2.1333333333333333
+'720':
+  image: veryfunny
+  x: 512
+  y: 512
+  fastsend: false
+  scale: 2.1333333333333333
+'721':
+  image: veryfunny
+  x: 512
+  y: 640
+  fastsend: false
+  scale: 2.1333333333333333
+'722':
+  image: veryfunny
+  x: 512
+  y: 768
+  fastsend: false
+  scale: 2.1333333333333333
+'723':
+  image: veryfunny
+  x: 512
+  y: 896
+  fastsend: false
+  scale: 2.1333333333333333
+'724':
+  image: veryfunny
+  x: 640
+  y: 0
+  fastsend: false
+  scale: 2.1333333333333333
+'725':
+  image: veryfunny
+  x: 640
+  y: 128
+  fastsend: false
+  scale: 2.1333333333333333
+'726':
+  image: veryfunny
+  x: 640
+  y: 256
+  fastsend: false
+  scale: 2.1333333333333333
+'727':
+  image: veryfunny
+  x: 640
+  y: 384
+  fastsend: false
+  scale: 2.1333333333333333
+'728':
+  image: veryfunny
+  x: 640
+  y: 512
+  fastsend: false
+  scale: 2.1333333333333333
+'729':
+  image: veryfunny
+  x: 640
+  y: 640
+  fastsend: false
+  scale: 2.1333333333333333
+'730':
+  image: veryfunny
+  x: 640
+  y: 768
+  fastsend: false
+  scale: 2.1333333333333333
+'731':
+  image: veryfunny
+  x: 640
+  y: 896
+  fastsend: false
+  scale: 2.1333333333333333
+'732':
+  image: veryfunny
+  x: 768
+  y: 0
+  fastsend: false
+  scale: 2.1333333333333333
+'733':
+  image: veryfunny
+  x: 768
+  y: 128
+  fastsend: false
+  scale: 2.1333333333333333
+'734':
+  image: veryfunny
+  x: 768
+  y: 256
+  fastsend: false
+  scale: 2.1333333333333333
+'735':
+  image: veryfunny
+  x: 768
+  y: 384
+  fastsend: false
+  scale: 2.1333333333333333
+'736':
+  image: veryfunny
+  x: 768
+  y: 512
+  fastsend: false
+  scale: 2.1333333333333333
+'737':
+  image: veryfunny
+  x: 768
+  y: 640
+  fastsend: false
+  scale: 2.1333333333333333
+'738':
+  image: veryfunny
+  x: 768
+  y: 768
+  fastsend: false
+  scale: 2.1333333333333333
+'739':
+  image: veryfunny
+  x: 768
+  y: 896
+  fastsend: false
+  scale: 2.1333333333333333
+'740':
+  image: veryfunny
+  x: 896
+  y: 0
+  fastsend: false
+  scale: 2.1333333333333333
+'741':
+  image: veryfunny
+  x: 896
+  y: 128
+  fastsend: false
+  scale: 2.1333333333333333
+'742':
+  image: veryfunny
+  x: 896
+  y: 256
+  fastsend: false
+  scale: 2.1333333333333333
+'743':
+  image: veryfunny
+  x: 896
+  y: 384
+  fastsend: false
+  scale: 2.1333333333333333
+'744':
+  image: veryfunny
+  x: 896
+  y: 512
+  fastsend: false
+  scale: 2.1333333333333333
+'745':
+  image: veryfunny
+  x: 896
+  y: 640
+  fastsend: false
+  scale: 2.1333333333333333
+'746':
+  image: veryfunny
+  x: 896
+  y: 768
+  fastsend: false
+  scale: 2.1333333333333333
+'747':
+  image: veryfunny
+  x: 896
+  y: 896
+  fastsend: false
+  scale: 2.1333333333333333
+'748':
+  image: veryfunny
+  x: 1024
+  y: 0
+  fastsend: false
+  scale: 2.1333333333333333
+'749':
+  image: veryfunny
+  x: 1024
+  y: 128
+  fastsend: false
+  scale: 2.1333333333333333
+'750':
+  image: veryfunny
+  x: 1024
+  y: 256
+  fastsend: false
+  scale: 2.1333333333333333
+'751':
+  image: veryfunny
+  x: 1024
+  y: 384
+  fastsend: false
+  scale: 2.1333333333333333
+'752':
+  image: veryfunny
+  x: 1024
+  y: 512
+  fastsend: false
+  scale: 2.1333333333333333
+'753':
+  image: veryfunny
+  x: 1024
+  y: 640
+  fastsend: false
+  scale: 2.1333333333333333
+'754':
+  image: veryfunny
+  x: 1024
+  y: 768
+  fastsend: false
+  scale: 2.1333333333333333
+'755':
+  image: veryfunny
+  x: 1024
+  y: 896
+  fastsend: false
+  scale: 2.1333333333333333
+'756':
+  image: veryfunny
+  x: 1152
+  y: 0
+  fastsend: false
+  scale: 2.1333333333333333
+'757':
+  image: veryfunny
+  x: 1152
+  y: 128
+  fastsend: false
+  scale: 2.1333333333333333
+'758':
+  image: veryfunny
+  x: 1152
+  y: 256
+  fastsend: false
+  scale: 2.1333333333333333
+'759':
+  image: veryfunny
+  x: 1152
+  y: 384
+  fastsend: false
+  scale: 2.1333333333333333
+'760':
+  image: veryfunny
+  x: 1152
+  y: 512
+  fastsend: false
+  scale: 2.1333333333333333
+'761':
+  image: veryfunny
+  x: 1152
+  y: 640
+  fastsend: false
+  scale: 2.1333333333333333
+'762':
+  image: veryfunny
+  x: 1152
+  y: 768
+  fastsend: false
+  scale: 2.1333333333333333
+'763':
+  image: veryfunny
+  x: 1152
+  y: 896
+  fastsend: false
+  scale: 2.1333333333333333
+'764':
+  image: health.png
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 0.47976011994003
+'765':
+  image: health.png
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 0.47976011994003
+'766':
+  image: health.png
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 0.47976011994003
+'767':
+  image: health.png
+  x: 0
+  y: 384
+  fastsend: false
+  scale: 0.47976011994003
+'768':
+  image: health.png
+  x: 0
+  y: 512
+  fastsend: false
+  scale: 0.47976011994003
+'769':
+  image: health.png
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 0.47976011994003
+'770':
+  image: health.png
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 0.47976011994003
+'771':
+  image: health.png
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 0.47976011994003
+'772':
+  image: health.png
+  x: 128
+  y: 384
+  fastsend: false
+  scale: 0.47976011994003
+'773':
+  image: health.png
+  x: 128
+  y: 512
+  fastsend: false
+  scale: 0.47976011994003
+'774':
+  image: health.png
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 0.47976011994003
+'775':
+  image: health.png
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 0.47976011994003
+'776':
+  image: health.png
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 0.47976011994003
+'777':
+  image: health.png
+  x: 256
+  y: 384
+  fastsend: false
+  scale: 0.47976011994003
+'778':
+  image: health.png
+  x: 256
+  y: 512
+  fastsend: false
+  scale: 0.47976011994003
+'779':
+  image: veryfunny
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 0.8533333333333334
+'780':
+  image: veryfunny
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 0.8533333333333334
+'781':
+  image: veryfunny
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 0.8533333333333334
+'782':
+  image: veryfunny
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 0.8533333333333334
+'783':
+  image: veryfunny
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 0.8533333333333334
+'784':
+  image: veryfunny
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 0.8533333333333334
+'785':
+  image: veryfunny
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 0.8533333333333334
+'786':
+  image: veryfunny
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 0.8533333333333334
+'787':
+  image: veryfunny
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 0.8533333333333334
+'788':
+  image: veryfunny
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 0.8533333333333334
+'789':
+  image: veryfunny
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 0.8533333333333334
+'790':
+  image: veryfunny
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 0.8533333333333334
+'791':
+  image: growth.png
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 0.6826666666666666
+'792':
+  image: growth.png
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 0.6826666666666666
+'793':
+  image: growth.png
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 0.6826666666666666
+'794':
+  image: growth.png
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 0.6826666666666666
+'795':
+  image: growth.png
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 0.6826666666666666
+'796':
+  image: growth.png
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 0.6826666666666666
+'797':
+  image: growth.png
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 0.6826666666666666
+'798':
+  image: growth.png
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 0.6826666666666666
+'799':
+  image: growth.png
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 0.6826666666666666
+'800':
+  image: growth.png
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 0.6826666666666666
+'801':
+  image: growth.png
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 0.6826666666666666
+'802':
+  image: growth.png
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 0.6826666666666666
+'803':
+  image: facts.png
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 0.4598802395209581
+'804':
+  image: facts.png
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 0.4598802395209581
+'805':
+  image: facts.png
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 0.4598802395209581
+'806':
+  image: facts.png
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 0.4598802395209581
+'807':
+  image: facts.png
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 0.4598802395209581
+'808':
+  image: facts.png
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 0.4598802395209581
+'809':
+  image: facts.png
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 0.4598802395209581
+'810':
+  image: facts.png
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 0.4598802395209581
+'811':
+  image: facts.png
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 0.4598802395209581
+'812':
+  image: bubba-kush
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 0.11267605633802817
+'813':
+  image: bubba-kush
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 0.3380281690140845
+'814':
+  image: bubba-kush
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 0.3380281690140845
+'815':
+  image: bubba-kush
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 0.3380281690140845
+'816':
+  image: bubba-kush
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 0.3380281690140845
+'817':
+  image: bubba-kush
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 0.3380281690140845
+'818':
+  image: bubba-kush
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 0.3380281690140845
+'819':
+  image: bubba-kush
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 0.3380281690140845
+'820':
+  image: bubba-kush
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 0.3380281690140845
+'821':
+  image: bubba-kush
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 0.3380281690140845
+'822':
+  image: the-meeting.png
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 0.6274509803921569
+'823':
+  image: the-meeting.png
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 0.6274509803921569
+'824':
+  image: the-meeting.png
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 0.6274509803921569
+'825':
+  image: the-meeting.png
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 0.6274509803921569
+'826':
+  image: the-meeting.png
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 0.6274509803921569
+'827':
+  image: the-meeting.png
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 0.6274509803921569
+'828':
+  image: the-meeting.png
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 0.6274509803921569
+'829':
+  image: the-meeting.png
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 0.6274509803921569
+'830':
+  image: the-meeting.png
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 0.6274509803921569
+'831':
+  image: Ghidorah
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 2.0
+'832':
+  image: Ghidorah
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 2.0
+'833':
+  image: Ghidorah
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 2.0
+'834':
+  image: Ghidorah
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 2.0
+'835':
+  image: Ghidorah
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 2.0
+'836':
+  image: Ghidorah
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 2.0
+'837':
+  image: Ghidorah
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 2.0
+'838':
+  image: Ghidorah
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 2.0
+'839':
+  image: Ghidorah
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 2.0
+'840':
+  image: Ghidorah
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 2.0
+'841':
+  image: Ghidorah
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 2.0
+'842':
+  image: Ghidorah
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 2.0
+'843':
+  image: Ghidorah
+  x: 512
+  y: 0
+  fastsend: false
+  scale: 2.0
+'844':
+  image: Ghidorah
+  x: 512
+  y: 128
+  fastsend: false
+  scale: 2.0
+'845':
+  image: Ghidorah
+  x: 512
+  y: 256
+  fastsend: false
+  scale: 2.0
+'846':
+  image: Ghidorah2
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 4.2105263157894735
+'847':
+  image: Ghidorah2
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 4.2105263157894735
+'848':
+  image: Ghidorah2
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 4.2105263157894735
+'849':
+  image: Ghidorah2
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 4.2105263157894735
+'850':
+  image: Ghidorah2
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 4.2105263157894735
+'851':
+  image: Ghidorah2
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 4.2105263157894735
+'852':
+  image: Ghidorah2
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 4.2105263157894735
+'853':
+  image: Ghidorah2
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 4.2105263157894735
+'854':
+  image: Ghidorah2
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 4.2105263157894735
+'855':
+  image: Ghidorah2
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 4.2105263157894735
+'856':
+  image: Ghidorah2
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 4.2105263157894735
+'857':
+  image: Ghidorah2
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 4.2105263157894735
+'858':
+  image: Ghidorah2
+  x: 512
+  y: 0
+  fastsend: false
+  scale: 4.2105263157894735
+'859':
+  image: Ghidorah2
+  x: 512
+  y: 128
+  fastsend: false
+  scale: 4.2105263157894735
+'860':
+  image: Ghidorah2
+  x: 512
+  y: 256
+  fastsend: false
+  scale: 4.2105263157894735
+'861':
+  image: Ghidorah2
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 5.052631578947368
+'862':
+  image: Ghidorah2
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 5.052631578947368
+'863':
+  image: Ghidorah2
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 5.052631578947368
+'864':
+  image: Ghidorah2
+  x: 0
+  y: 384
+  fastsend: false
+  scale: 5.052631578947368
+'865':
+  image: Ghidorah2
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 5.052631578947368
+'866':
+  image: Ghidorah2
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 5.052631578947368
+'867':
+  image: Ghidorah2
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 5.052631578947368
+'868':
+  image: Ghidorah2
+  x: 128
+  y: 384
+  fastsend: false
+  scale: 5.052631578947368
+'869':
+  image: Ghidorah2
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 5.052631578947368
+'870':
+  image: Ghidorah2
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 5.052631578947368
+'871':
+  image: Ghidorah2
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 5.052631578947368
+'872':
+  image: Ghidorah2
+  x: 256
+  y: 384
+  fastsend: false
+  scale: 5.052631578947368
+'873':
+  image: Ghidorah2
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 5.052631578947368
+'874':
+  image: Ghidorah2
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 5.052631578947368
+'875':
+  image: Ghidorah2
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 5.052631578947368
+'876':
+  image: Ghidorah2
+  x: 384
+  y: 384
+  fastsend: false
+  scale: 5.052631578947368
+'877':
+  image: Ghidorah2
+  x: 512
+  y: 0
+  fastsend: false
+  scale: 5.052631578947368
+'878':
+  image: Ghidorah2
+  x: 512
+  y: 128
+  fastsend: false
+  scale: 5.052631578947368
+'879':
+  image: Ghidorah2
+  x: 512
+  y: 256
+  fastsend: false
+  scale: 5.052631578947368
+'880':
+  image: Ghidorah2
+  x: 512
+  y: 384
+  fastsend: false
+  scale: 5.052631578947368
+'881':
+  image: Ghidorah2
+  x: 640
+  y: 0
+  fastsend: false
+  scale: 5.052631578947368
+'882':
+  image: Ghidorah2
+  x: 640
+  y: 128
+  fastsend: false
+  scale: 5.052631578947368
+'883':
+  image: Ghidorah2
+  x: 640
+  y: 256
+  fastsend: false
+  scale: 5.052631578947368
+'884':
+  image: Ghidorah2
+  x: 640
+  y: 384
+  fastsend: false
+  scale: 5.052631578947368
+'885':
+  image: Ghidorah3
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 5.052631578947368
+'886':
+  image: Ghidorah3
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 5.052631578947368
+'887':
+  image: Ghidorah3
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 5.052631578947368
+'888':
+  image: Ghidorah3
+  x: 0
+  y: 384
+  fastsend: false
+  scale: 5.052631578947368
+'889':
+  image: Ghidorah3
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 5.052631578947368
+'890':
+  image: Ghidorah3
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 5.052631578947368
+'891':
+  image: Ghidorah3
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 5.052631578947368
+'892':
+  image: Ghidorah3
+  x: 128
+  y: 384
+  fastsend: false
+  scale: 5.052631578947368
+'893':
+  image: Ghidorah3
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 5.052631578947368
+'894':
+  image: Ghidorah3
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 5.052631578947368
+'895':
+  image: Ghidorah3
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 5.052631578947368
+'896':
+  image: Ghidorah3
+  x: 256
+  y: 384
+  fastsend: false
+  scale: 5.052631578947368
+'897':
+  image: Ghidorah3
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 5.052631578947368
+'898':
+  image: Ghidorah3
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 5.052631578947368
+'899':
+  image: Ghidorah3
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 5.052631578947368
+'900':
+  image: Ghidorah3
+  x: 384
+  y: 384
+  fastsend: false
+  scale: 5.052631578947368
+'901':
+  image: Ghidorah3
+  x: 512
+  y: 0
+  fastsend: false
+  scale: 5.052631578947368
+'902':
+  image: Ghidorah3
+  x: 512
+  y: 128
+  fastsend: false
+  scale: 5.052631578947368
+'903':
+  image: Ghidorah3
+  x: 512
+  y: 256
+  fastsend: false
+  scale: 5.052631578947368
+'904':
+  image: Ghidorah3
+  x: 512
+  y: 384
+  fastsend: false
+  scale: 5.052631578947368
+'905':
+  image: Ghidorah3
+  x: 640
+  y: 0
+  fastsend: false
+  scale: 5.052631578947368
+'906':
+  image: Ghidorah3
+  x: 640
+  y: 128
+  fastsend: false
+  scale: 5.052631578947368
+'907':
+  image: Ghidorah3
+  x: 640
+  y: 256
+  fastsend: false
+  scale: 5.052631578947368
+'908':
+  image: Ghidorah3
+  x: 640
+  y: 384
+  fastsend: false
+  scale: 5.052631578947368
+'909':
+  image: Ghidorah3
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 7.529411764705882
+'910':
+  image: Ghidorah3
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 7.529411764705882
+'911':
+  image: Ghidorah3
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 7.529411764705882
+'912':
+  image: Ghidorah3
+  x: 0
+  y: 384
+  fastsend: false
+  scale: 7.529411764705882
+'913':
+  image: Ghidorah3
+  x: 0
+  y: 512
+  fastsend: false
+  scale: 7.529411764705882
+'914':
+  image: Ghidorah3
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 7.529411764705882
+'915':
+  image: Ghidorah3
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 7.529411764705882
+'916':
+  image: Ghidorah3
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 7.529411764705882
+'917':
+  image: Ghidorah3
+  x: 128
+  y: 384
+  fastsend: false
+  scale: 7.529411764705882
+'918':
+  image: Ghidorah3
+  x: 128
+  y: 512
+  fastsend: false
+  scale: 7.529411764705882
+'919':
+  image: Ghidorah3
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 7.529411764705882
+'920':
+  image: Ghidorah3
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 7.529411764705882
+'921':
+  image: Ghidorah3
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 7.529411764705882
+'922':
+  image: Ghidorah3
+  x: 256
+  y: 384
+  fastsend: false
+  scale: 7.529411764705882
+'923':
+  image: Ghidorah3
+  x: 256
+  y: 512
+  fastsend: false
+  scale: 7.529411764705882
+'924':
+  image: Ghidorah3
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 7.529411764705882
+'925':
+  image: Ghidorah3
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 7.529411764705882
+'926':
+  image: Ghidorah3
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 7.529411764705882
+'927':
+  image: Ghidorah3
+  x: 384
+  y: 384
+  fastsend: false
+  scale: 7.529411764705882
+'928':
+  image: Ghidorah3
+  x: 384
+  y: 512
+  fastsend: false
+  scale: 7.529411764705882
+'929':
+  image: Ghidorah3
+  x: 512
+  y: 0
+  fastsend: false
+  scale: 7.529411764705882
+'930':
+  image: Ghidorah3
+  x: 512
+  y: 128
+  fastsend: false
+  scale: 7.529411764705882
+'931':
+  image: Ghidorah3
+  x: 512
+  y: 256
+  fastsend: false
+  scale: 7.529411764705882
+'932':
+  image: Ghidorah3
+  x: 512
+  y: 384
+  fastsend: false
+  scale: 7.529411764705882
+'933':
+  image: Ghidorah3
+  x: 512
+  y: 512
+  fastsend: false
+  scale: 7.529411764705882
+'934':
+  image: Ghidorah3
+  x: 640
+  y: 0
+  fastsend: false
+  scale: 7.529411764705882
+'935':
+  image: Ghidorah3
+  x: 640
+  y: 128
+  fastsend: false
+  scale: 7.529411764705882
+'936':
+  image: Ghidorah3
+  x: 640
+  y: 256
+  fastsend: false
+  scale: 7.529411764705882
+'937':
+  image: Ghidorah3
+  x: 640
+  y: 384
+  fastsend: false
+  scale: 7.529411764705882
+'938':
+  image: Ghidorah3
+  x: 640
+  y: 512
+  fastsend: false
+  scale: 7.529411764705882
+'939':
+  image: Ghidorah3
+  x: 768
+  y: 0
+  fastsend: false
+  scale: 7.529411764705882
+'940':
+  image: Ghidorah3
+  x: 768
+  y: 128
+  fastsend: false
+  scale: 7.529411764705882
+'941':
+  image: Ghidorah3
+  x: 768
+  y: 256
+  fastsend: false
+  scale: 7.529411764705882
+'942':
+  image: Ghidorah3
+  x: 768
+  y: 384
+  fastsend: false
+  scale: 7.529411764705882
+'943':
+  image: Ghidorah3
+  x: 768
+  y: 512
+  fastsend: false
+  scale: 7.529411764705882
+'944':
+  image: Ghidorah3
+  x: 896
+  y: 0
+  fastsend: false
+  scale: 7.529411764705882
+'945':
+  image: Ghidorah3
+  x: 896
+  y: 128
+  fastsend: false
+  scale: 7.529411764705882
+'946':
+  image: Ghidorah3
+  x: 896
+  y: 256
+  fastsend: false
+  scale: 7.529411764705882
+'947':
+  image: Ghidorah3
+  x: 896
+  y: 384
+  fastsend: false
+  scale: 7.529411764705882
+'948':
+  image: Ghidorah3
+  x: 896
+  y: 512
+  fastsend: false
+  scale: 7.529411764705882
+'949':
+  image: Ghidorah3
+  x: 1024
+  y: 0
+  fastsend: false
+  scale: 7.529411764705882
+'950':
+  image: Ghidorah3
+  x: 1024
+  y: 128
+  fastsend: false
+  scale: 7.529411764705882
+'951':
+  image: Ghidorah3
+  x: 1024
+  y: 256
+  fastsend: false
+  scale: 7.529411764705882
+'952':
+  image: Ghidorah3
+  x: 1024
+  y: 384
+  fastsend: false
+  scale: 7.529411764705882
+'953':
+  image: Ghidorah3
+  x: 1024
+  y: 512
+  fastsend: false
+  scale: 7.529411764705882
+'954':
+  image: Ghidorah3
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 3.011764705882353
+'955':
+  image: Ghidorah3
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 3.011764705882353
+'956':
+  image: Ghidorah3
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 3.011764705882353
+'957':
+  image: Ghidorah3
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 3.011764705882353
+'958':
+  image: Ghidorah3
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 3.011764705882353
+'959':
+  image: Ghidorah3
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 3.011764705882353
+'960':
+  image: Ghidorah3
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 3.011764705882353
+'961':
+  image: Ghidorah3
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 3.011764705882353
+'962':
+  image: Ghidorah4
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 1.0
+'963':
+  image: Ghidorah4
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 6.023529411764706
+'964':
+  image: Ghidorah4
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 6.023529411764706
+'965':
+  image: Ghidorah4
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 6.023529411764706
+'966':
+  image: Ghidorah4
+  x: 0
+  y: 384
+  fastsend: false
+  scale: 6.023529411764706
+'967':
+  image: Ghidorah4
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 6.023529411764706
+'968':
+  image: Ghidorah4
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 6.023529411764706
+'969':
+  image: Ghidorah4
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 6.023529411764706
+'970':
+  image: Ghidorah4
+  x: 128
+  y: 384
+  fastsend: false
+  scale: 6.023529411764706
+'971':
+  image: Ghidorah4
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 6.023529411764706
+'972':
+  image: Ghidorah4
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 6.023529411764706
+'973':
+  image: Ghidorah4
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 6.023529411764706
+'974':
+  image: Ghidorah4
+  x: 256
+  y: 384
+  fastsend: false
+  scale: 6.023529411764706
+'975':
+  image: Ghidorah3
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 7.578947368421052
+'976':
+  image: Ghidorah3
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 7.578947368421052
+'977':
+  image: Ghidorah3
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 7.578947368421052
+'978':
+  image: Ghidorah3
+  x: 0
+  y: 384
+  fastsend: false
+  scale: 7.578947368421052
+'979':
+  image: Ghidorah3
+  x: 0
+  y: 512
+  fastsend: false
+  scale: 7.578947368421052
+'981':
+  image: Ghidorah3
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 6.7368421052631575
+'982':
+  image: Ghidorah3
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 6.7368421052631575
+'983':
+  image: Ghidorah3
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 6.7368421052631575
+'984':
+  image: Ghidorah3
+  x: 0
+  y: 384
+  fastsend: false
+  scale: 6.7368421052631575
+'985':
+  image: Ghidorah3
+  x: 0
+  y: 512
+  fastsend: false
+  scale: 6.7368421052631575
+'986':
+  image: Ghidorah3
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 6.7368421052631575
+'987':
+  image: Ghidorah3
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 6.7368421052631575
+'988':
+  image: Ghidorah3
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 6.7368421052631575
+'989':
+  image: Ghidorah3
+  x: 128
+  y: 384
+  fastsend: false
+  scale: 6.7368421052631575
+'990':
+  image: Ghidorah3
+  x: 128
+  y: 512
+  fastsend: false
+  scale: 6.7368421052631575
+'991':
+  image: Ghidorah3
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 6.7368421052631575
+'992':
+  image: Ghidorah3
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 6.7368421052631575
+'993':
+  image: Ghidorah3
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 6.7368421052631575
+'994':
+  image: Ghidorah3
+  x: 256
+  y: 384
+  fastsend: false
+  scale: 6.7368421052631575
+'995':
+  image: Ghidorah3
+  x: 256
+  y: 512
+  fastsend: false
+  scale: 6.7368421052631575
+'996':
+  image: Ghidorah3
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 6.7368421052631575
+'997':
+  image: Ghidorah3
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 6.7368421052631575
+'998':
+  image: Ghidorah3
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 6.7368421052631575
+'999':
+  image: Ghidorah3
+  x: 384
+  y: 384
+  fastsend: false
+  scale: 6.7368421052631575
+'1000':
+  image: Ghidorah3
+  x: 384
+  y: 512
+  fastsend: false
+  scale: 6.7368421052631575
+'1001':
+  image: Ghidorah3
+  x: 512
+  y: 0
+  fastsend: false
+  scale: 6.7368421052631575
+'1002':
+  image: Ghidorah3
+  x: 512
+  y: 128
+  fastsend: false
+  scale: 6.7368421052631575
+'1003':
+  image: Ghidorah3
+  x: 512
+  y: 256
+  fastsend: false
+  scale: 6.7368421052631575
+'1004':
+  image: Ghidorah3
+  x: 512
+  y: 384
+  fastsend: false
+  scale: 6.7368421052631575
+'1005':
+  image: Ghidorah3
+  x: 512
+  y: 512
+  fastsend: false
+  scale: 6.7368421052631575
+'1006':
+  image: Ghidorah3
+  x: 640
+  y: 0
+  fastsend: false
+  scale: 6.7368421052631575
+'1007':
+  image: Ghidorah3
+  x: 640
+  y: 128
+  fastsend: false
+  scale: 6.7368421052631575
+'1008':
+  image: Ghidorah3
+  x: 640
+  y: 256
+  fastsend: false
+  scale: 6.7368421052631575
+'1009':
+  image: Ghidorah3
+  x: 640
+  y: 384
+  fastsend: false
+  scale: 6.7368421052631575
+'1010':
+  image: Ghidorah3
+  x: 640
+  y: 512
+  fastsend: false
+  scale: 6.7368421052631575
+'1011':
+  image: Ghidorah3
+  x: 768
+  y: 0
+  fastsend: false
+  scale: 6.7368421052631575
+'1012':
+  image: Ghidorah3
+  x: 768
+  y: 128
+  fastsend: false
+  scale: 6.7368421052631575
+'1013':
+  image: Ghidorah3
+  x: 768
+  y: 256
+  fastsend: false
+  scale: 6.7368421052631575
+'1014':
+  image: Ghidorah3
+  x: 768
+  y: 384
+  fastsend: false
+  scale: 6.7368421052631575
+'1015':
+  image: Ghidorah3
+  x: 768
+  y: 512
+  fastsend: false
+  scale: 6.7368421052631575
+'1016':
+  image: Ghidorah3
+  x: 896
+  y: 0
+  fastsend: false
+  scale: 6.7368421052631575
+'1017':
+  image: Ghidorah3
+  x: 896
+  y: 128
+  fastsend: false
+  scale: 6.7368421052631575
+'1018':
+  image: Ghidorah3
+  x: 896
+  y: 256
+  fastsend: false
+  scale: 6.7368421052631575
+'1019':
+  image: Ghidorah3
+  x: 896
+  y: 384
+  fastsend: false
+  scale: 6.7368421052631575
+'1020':
+  image: Ghidorah3
+  x: 896
+  y: 512
+  fastsend: false
+  scale: 6.7368421052631575
+'1023':
+  image: Ghidorah3
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 8.421052631578947
+'1024':
+  image: Ghidorah3
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 8.421052631578947
+'1025':
+  image: Ghidorah3
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 8.421052631578947
+'1026':
+  image: Ghidorah3
+  x: 0
+  y: 384
+  fastsend: false
+  scale: 8.421052631578947
+'1027':
+  image: Ghidorah3
+  x: 0
+  y: 512
+  fastsend: false
+  scale: 8.421052631578947
+'1028':
+  image: Ghidorah3
+  x: 0
+  y: 640
+  fastsend: false
+  scale: 8.421052631578947
+'1029':
+  image: Ghidorah3
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 8.421052631578947
+'1030':
+  image: Ghidorah3
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 8.421052631578947
+'1031':
+  image: Ghidorah3
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 8.421052631578947
+'1032':
+  image: Ghidorah3
+  x: 128
+  y: 384
+  fastsend: false
+  scale: 8.421052631578947
+'1033':
+  image: Ghidorah3
+  x: 128
+  y: 512
+  fastsend: false
+  scale: 8.421052631578947
+'1034':
+  image: Ghidorah3
+  x: 128
+  y: 640
+  fastsend: false
+  scale: 8.421052631578947
+'1035':
+  image: Ghidorah3
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 8.421052631578947
+'1036':
+  image: Ghidorah3
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 8.421052631578947
+'1037':
+  image: Ghidorah3
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 8.421052631578947
+'1038':
+  image: Ghidorah3
+  x: 256
+  y: 384
+  fastsend: false
+  scale: 8.421052631578947
+'1039':
+  image: Ghidorah3
+  x: 256
+  y: 512
+  fastsend: false
+  scale: 8.421052631578947
+'1040':
+  image: Ghidorah3
+  x: 256
+  y: 640
+  fastsend: false
+  scale: 8.421052631578947
+'1041':
+  image: Ghidorah3
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 8.421052631578947
+'1042':
+  image: Ghidorah3
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 8.421052631578947
+'1043':
+  image: Ghidorah3
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 8.421052631578947
+'1044':
+  image: Ghidorah3
+  x: 384
+  y: 384
+  fastsend: false
+  scale: 8.421052631578947
+'1045':
+  image: Ghidorah3
+  x: 384
+  y: 512
+  fastsend: false
+  scale: 8.421052631578947
+'1046':
+  image: Ghidorah3
+  x: 384
+  y: 640
+  fastsend: false
+  scale: 8.421052631578947
+'1047':
+  image: Ghidorah3
+  x: 512
+  y: 0
+  fastsend: false
+  scale: 8.421052631578947
+'1048':
+  image: Ghidorah3
+  x: 512
+  y: 128
+  fastsend: false
+  scale: 8.421052631578947
+'1049':
+  image: Ghidorah3
+  x: 512
+  y: 256
+  fastsend: false
+  scale: 8.421052631578947
+'1050':
+  image: Ghidorah3
+  x: 512
+  y: 384
+  fastsend: false
+  scale: 8.421052631578947
+'1051':
+  image: Ghidorah3
+  x: 512
+  y: 512
+  fastsend: false
+  scale: 8.421052631578947
+'1052':
+  image: Ghidorah3
+  x: 512
+  y: 640
+  fastsend: false
+  scale: 8.421052631578947
+'1053':
+  image: Ghidorah3
+  x: 640
+  y: 0
+  fastsend: false
+  scale: 8.421052631578947
+'1054':
+  image: Ghidorah3
+  x: 640
+  y: 128
+  fastsend: false
+  scale: 8.421052631578947
+'1055':
+  image: Ghidorah3
+  x: 640
+  y: 256
+  fastsend: false
+  scale: 8.421052631578947
+'1056':
+  image: Ghidorah3
+  x: 640
+  y: 384
+  fastsend: false
+  scale: 8.421052631578947
+'1057':
+  image: Ghidorah3
+  x: 640
+  y: 512
+  fastsend: false
+  scale: 8.421052631578947
+'1058':
+  image: Ghidorah3
+  x: 640
+  y: 640
+  fastsend: false
+  scale: 8.421052631578947
+'1059':
+  image: Ghidorah3
+  x: 768
+  y: 0
+  fastsend: false
+  scale: 8.421052631578947
+'1060':
+  image: Ghidorah3
+  x: 768
+  y: 128
+  fastsend: false
+  scale: 8.421052631578947
+'1061':
+  image: Ghidorah3
+  x: 768
+  y: 256
+  fastsend: false
+  scale: 8.421052631578947
+'1062':
+  image: Ghidorah3
+  x: 768
+  y: 384
+  fastsend: false
+  scale: 8.421052631578947
+'1063':
+  image: Ghidorah3
+  x: 768
+  y: 512
+  fastsend: false
+  scale: 8.421052631578947
+'1064':
+  image: Ghidorah3
+  x: 768
+  y: 640
+  fastsend: false
+  scale: 8.421052631578947
+'1065':
+  image: Ghidorah3
+  x: 896
+  y: 0
+  fastsend: false
+  scale: 8.421052631578947
+'1066':
+  image: Ghidorah3
+  x: 896
+  y: 128
+  fastsend: false
+  scale: 8.421052631578947
+'1067':
+  image: Ghidorah3
+  x: 896
+  y: 256
+  fastsend: false
+  scale: 8.421052631578947
+'1068':
+  image: Ghidorah3
+  x: 896
+  y: 384
+  fastsend: false
+  scale: 8.421052631578947
+'1069':
+  image: Ghidorah3
+  x: 896
+  y: 512
+  fastsend: false
+  scale: 8.421052631578947
+'1070':
+  image: Ghidorah3
+  x: 896
+  y: 640
+  fastsend: false
+  scale: 8.421052631578947
+'1071':
+  image: Ghidorah3
+  x: 1024
+  y: 0
+  fastsend: false
+  scale: 8.421052631578947
+'1072':
+  image: Ghidorah3
+  x: 1024
+  y: 128
+  fastsend: false
+  scale: 8.421052631578947
+'1073':
+  image: Ghidorah3
+  x: 1024
+  y: 256
+  fastsend: false
+  scale: 8.421052631578947
+'1074':
+  image: Ghidorah3
+  x: 1024
+  y: 384
+  fastsend: false
+  scale: 8.421052631578947
+'1075':
+  image: Ghidorah3
+  x: 1024
+  y: 512
+  fastsend: false
+  scale: 8.421052631578947
+'1076':
+  image: Ghidorah3
+  x: 1024
+  y: 640
+  fastsend: false
+  scale: 8.421052631578947
+'1077':
+  image: Ghidorah3
+  x: 1152
+  y: 0
+  fastsend: false
+  scale: 8.421052631578947
+'1078':
+  image: Ghidorah3
+  x: 1152
+  y: 128
+  fastsend: false
+  scale: 8.421052631578947
+'1079':
+  image: Ghidorah3
+  x: 1152
+  y: 256
+  fastsend: false
+  scale: 8.421052631578947
+'1080':
+  image: Ghidorah3
+  x: 1152
+  y: 384
+  fastsend: false
+  scale: 8.421052631578947
+'1081':
+  image: Ghidorah3
+  x: 1152
+  y: 512
+  fastsend: false
+  scale: 8.421052631578947
+'1082':
+  image: Ghidorah3
+  x: 1152
+  y: 640
+  fastsend: false
+  scale: 8.421052631578947
+'1083':
+  image: Ghidorah2
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 6.023529411764706
+'1084':
+  image: Ghidorah2
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 6.023529411764706
+'1085':
+  image: Ghidorah2
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 6.023529411764706
+'1086':
+  image: Ghidorah2
+  x: 0
+  y: 384
+  fastsend: false
+  scale: 6.023529411764706
+'1087':
+  image: Ghidorah2
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 6.023529411764706
+'1088':
+  image: Ghidorah2
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 6.023529411764706
+'1089':
+  image: Ghidorah2
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 6.023529411764706
+'1090':
+  image: Ghidorah2
+  x: 128
+  y: 384
+  fastsend: false
+  scale: 6.023529411764706
+'1091':
+  image: Ghidorah2
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 6.023529411764706
+'1092':
+  image: Ghidorah2
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 6.023529411764706
+'1093':
+  image: Ghidorah2
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 6.023529411764706
+'1094':
+  image: Ghidorah2
+  x: 256
+  y: 384
+  fastsend: false
+  scale: 6.023529411764706
+'1095':
+  image: Ghidorah2
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 6.023529411764706
+'1096':
+  image: Ghidorah2
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 6.023529411764706
+'1097':
+  image: Ghidorah2
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 6.023529411764706
+'1098':
+  image: Ghidorah2
+  x: 384
+  y: 384
+  fastsend: false
+  scale: 6.023529411764706
+'1099':
+  image: Ghidorah2
+  x: 512
+  y: 0
+  fastsend: false
+  scale: 6.023529411764706
+'1100':
+  image: Ghidorah2
+  x: 512
+  y: 128
+  fastsend: false
+  scale: 6.023529411764706
+'1101':
+  image: Ghidorah2
+  x: 512
+  y: 256
+  fastsend: false
+  scale: 6.023529411764706
+'1102':
+  image: Ghidorah2
+  x: 512
+  y: 384
+  fastsend: false
+  scale: 6.023529411764706
+'1103':
+  image: Ghidorah2
+  x: 640
+  y: 0
+  fastsend: false
+  scale: 6.023529411764706
+'1104':
+  image: Ghidorah2
+  x: 640
+  y: 128
+  fastsend: false
+  scale: 6.023529411764706
+'1105':
+  image: Ghidorah2
+  x: 640
+  y: 256
+  fastsend: false
+  scale: 6.023529411764706
+'1106':
+  image: Ghidorah2
+  x: 640
+  y: 384
+  fastsend: false
+  scale: 6.023529411764706
+'1107':
+  image: Ghidorah2
+  x: 768
+  y: 0
+  fastsend: false
+  scale: 6.023529411764706
+'1108':
+  image: Ghidorah2
+  x: 768
+  y: 128
+  fastsend: false
+  scale: 6.023529411764706
+'1109':
+  image: Ghidorah2
+  x: 768
+  y: 256
+  fastsend: false
+  scale: 6.023529411764706
+'1110':
+  image: Ghidorah2
+  x: 768
+  y: 384
+  fastsend: false
+  scale: 6.023529411764706
+'1111':
+  image: Ghidorah2
+  x: 896
+  y: 0
+  fastsend: false
+  scale: 6.023529411764706
+'1112':
+  image: Ghidorah2
+  x: 896
+  y: 128
+  fastsend: false
+  scale: 6.023529411764706
+'1113':
+  image: Ghidorah2
+  x: 896
+  y: 256
+  fastsend: false
+  scale: 6.023529411764706
+'1114':
+  image: Ghidorah2
+  x: 896
+  y: 384
+  fastsend: false
+  scale: 6.023529411764706
+'1115':
+  image: Ghidorah3
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 3.3684210526315788
+'1116':
+  image: Ghidorah3
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 3.3684210526315788
+'1117':
+  image: Ghidorah3
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 3.3684210526315788
+'1118':
+  image: Ghidorah3
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 3.3684210526315788
+'1119':
+  image: Ghidorah3
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 3.3684210526315788
+'1120':
+  image: Ghidorah3
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 3.3684210526315788
+'1121':
+  image: Ghidorah3
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 3.3684210526315788
+'1122':
+  image: Ghidorah3
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 3.3684210526315788
+'1123':
+  image: Ghidorah3
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 3.3684210526315788
+'1124':
+  image: Ghidorah3
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 3.3684210526315788
+'1125':
+  image: Ghidorah3
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 3.3684210526315788
+'1126':
+  image: Ghidorah3
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 3.3684210526315788
+'1127':
+  image: Ghidorah2
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 3.3684210526315788
+'1128':
+  image: Ghidorah2
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 3.3684210526315788
+'1129':
+  image: Ghidorah2
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 3.3684210526315788
+'1130':
+  image: Ghidorah2
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 3.3684210526315788
+'1131':
+  image: Ghidorah2
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 3.3684210526315788
+'1132':
+  image: Ghidorah2
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 3.3684210526315788
+'1133':
+  image: Ghidorah2
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 3.3684210526315788
+'1134':
+  image: Ghidorah2
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 3.3684210526315788
+'1135':
+  image: Ghidorah2
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 3.3684210526315788
+'1136':
+  image: Ghidorah2
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 3.3684210526315788
+'1137':
+  image: Ghidorah2
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 3.3684210526315788
+'1138':
+  image: Ghidorah2
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 3.3684210526315788
+'1139':
+  image: Ghidorah2
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 5.894736842105263
+'1140':
+  image: Ghidorah2
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 5.894736842105263
+'1141':
+  image: Ghidorah2
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 5.894736842105263
+'1142':
+  image: Ghidorah2
+  x: 0
+  y: 384
+  fastsend: false
+  scale: 5.894736842105263
+'1143':
+  image: Ghidorah2
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 5.894736842105263
+'1144':
+  image: Ghidorah2
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 5.894736842105263
+'1145':
+  image: Ghidorah2
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 5.894736842105263
+'1146':
+  image: Ghidorah2
+  x: 128
+  y: 384
+  fastsend: false
+  scale: 5.894736842105263
+'1147':
+  image: Ghidorah2
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 5.894736842105263
+'1148':
+  image: Ghidorah2
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 5.894736842105263
+'1149':
+  image: Ghidorah2
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 5.894736842105263
+'1150':
+  image: Ghidorah2
+  x: 256
+  y: 384
+  fastsend: false
+  scale: 5.894736842105263
+'1151':
+  image: Ghidorah2
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 5.894736842105263
+'1152':
+  image: Ghidorah2
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 5.894736842105263
+'1153':
+  image: Ghidorah2
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 5.894736842105263
+'1154':
+  image: Ghidorah2
+  x: 384
+  y: 384
+  fastsend: false
+  scale: 5.894736842105263
+'1155':
+  image: Ghidorah2
+  x: 512
+  y: 0
+  fastsend: false
+  scale: 5.894736842105263
+'1156':
+  image: Ghidorah2
+  x: 512
+  y: 128
+  fastsend: false
+  scale: 5.894736842105263
+'1157':
+  image: Ghidorah2
+  x: 512
+  y: 256
+  fastsend: false
+  scale: 5.894736842105263
+'1158':
+  image: Ghidorah2
+  x: 512
+  y: 384
+  fastsend: false
+  scale: 5.894736842105263
+'1159':
+  image: Ghidorah2
+  x: 640
+  y: 0
+  fastsend: false
+  scale: 5.894736842105263
+'1160':
+  image: Ghidorah2
+  x: 640
+  y: 128
+  fastsend: false
+  scale: 5.894736842105263
+'1161':
+  image: Ghidorah2
+  x: 640
+  y: 256
+  fastsend: false
+  scale: 5.894736842105263
+'1162':
+  image: Ghidorah2
+  x: 640
+  y: 384
+  fastsend: false
+  scale: 5.894736842105263
+'1163':
+  image: Ghidorah2
+  x: 768
+  y: 0
+  fastsend: false
+  scale: 5.894736842105263
+'1164':
+  image: Ghidorah2
+  x: 768
+  y: 128
+  fastsend: false
+  scale: 5.894736842105263
+'1165':
+  image: Ghidorah2
+  x: 768
+  y: 256
+  fastsend: false
+  scale: 5.894736842105263
+'1166':
+  image: Ghidorah2
+  x: 768
+  y: 384
+  fastsend: false
+  scale: 5.894736842105263
+'1167':
+  image: veryfunny
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 0.64
+'1168':
+  image: veryfunny
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 0.64
+'1169':
+  image: veryfunny
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 0.64
+'1170':
+  image: veryfunny
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 0.64
+'1171':
+  image: veryfunny
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 0.64
+'1172':
+  image: veryfunny
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 0.64
+'1173':
+  image: veryfunny
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 0.64
+'1174':
+  image: veryfunny
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 0.64
+'1175':
+  image: veryfunny
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 0.64
+'1176':
+  image: veryfunny
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 1.28
+'1177':
+  image: veryfunny
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 1.28
+'1178':
+  image: veryfunny
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 1.28
+'1179':
+  image: veryfunny
+  x: 0
+  y: 384
+  fastsend: false
+  scale: 1.28
+'1180':
+  image: veryfunny
+  x: 0
+  y: 512
+  fastsend: false
+  scale: 1.28
+'1181':
+  image: veryfunny
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 1.28
+'1182':
+  image: veryfunny
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 1.28
+'1183':
+  image: veryfunny
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 1.28
+'1184':
+  image: veryfunny
+  x: 128
+  y: 384
+  fastsend: false
+  scale: 1.28
+'1185':
+  image: veryfunny
+  x: 128
+  y: 512
+  fastsend: false
+  scale: 1.28
+'1186':
+  image: veryfunny
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 1.28
+'1187':
+  image: veryfunny
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 1.28
+'1188':
+  image: veryfunny
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 1.28
+'1189':
+  image: veryfunny
+  x: 256
+  y: 384
+  fastsend: false
+  scale: 1.28
+'1190':
+  image: veryfunny
+  x: 256
+  y: 512
+  fastsend: false
+  scale: 1.28
+'1191':
+  image: veryfunny
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 1.28
+'1192':
+  image: veryfunny
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 1.28
+'1193':
+  image: veryfunny
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 1.28
+'1194':
+  image: veryfunny
+  x: 384
+  y: 384
+  fastsend: false
+  scale: 1.28
+'1195':
+  image: veryfunny
+  x: 384
+  y: 512
+  fastsend: false
+  scale: 1.28
+'1196':
+  image: veryfunny
+  x: 512
+  y: 0
+  fastsend: false
+  scale: 1.28
+'1197':
+  image: veryfunny
+  x: 512
+  y: 128
+  fastsend: false
+  scale: 1.28
+'1198':
+  image: veryfunny
+  x: 512
+  y: 256
+  fastsend: false
+  scale: 1.28
+'1199':
+  image: veryfunny
+  x: 512
+  y: 384
+  fastsend: false
+  scale: 1.28
+'1200':
+  image: veryfunny
+  x: 512
+  y: 512
+  fastsend: false
+  scale: 1.28
+'1201':
+  image: veryfunny
+  x: 640
+  y: 0
+  fastsend: false
+  scale: 1.28
+'1202':
+  image: veryfunny
+  x: 640
+  y: 128
+  fastsend: false
+  scale: 1.28
+'1203':
+  image: veryfunny
+  x: 640
+  y: 256
+  fastsend: false
+  scale: 1.28
+'1204':
+  image: veryfunny
+  x: 640
+  y: 384
+  fastsend: false
+  scale: 1.28
+'1205':
+  image: veryfunny
+  x: 640
+  y: 512
+  fastsend: false
+  scale: 1.28
+'1206':
+  image: pat-smile.png
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 0.26666666666666666
+'1207':
+  image: pat-smile.png
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 0.26666666666666666
+'1208':
+  image: pat-smile.png
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 0.26666666666666666
+'1209':
+  image: pat-smile.png
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 0.26666666666666666
+'1210':
+  image: pat-smile.png
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 0.26666666666666666
+'1211':
+  image: pat-smile.png
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 0.26666666666666666
+'1212':
+  image: pat-smile.png
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 0.26666666666666666
+'1213':
+  image: pat-smile.png
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 0.26666666666666666
+'1214':
+  image: pat-smile.png
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 0.26666666666666666
+'1215':
+  image: pat-smile.png
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 0.26666666666666666
+'1216':
+  image: pat-smile.png
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 0.26666666666666666
+'1217':
+  image: pat-smile.png
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 0.26666666666666666
+'1218':
+  image: streetcorn.png
+  x: 0
+  y: 0
+  fastsend: false
+  scale: 0.26666666666666666
+'1219':
+  image: streetcorn.png
+  x: 0
+  y: 128
+  fastsend: false
+  scale: 0.26666666666666666
+'1220':
+  image: streetcorn.png
+  x: 0
+  y: 256
+  fastsend: false
+  scale: 0.26666666666666666
+'1221':
+  image: streetcorn.png
+  x: 128
+  y: 0
+  fastsend: false
+  scale: 0.26666666666666666
+'1222':
+  image: streetcorn.png
+  x: 128
+  y: 128
+  fastsend: false
+  scale: 0.26666666666666666
+'1223':
+  image: streetcorn.png
+  x: 128
+  y: 256
+  fastsend: false
+  scale: 0.26666666666666666
+'1224':
+  image: streetcorn.png
+  x: 256
+  y: 0
+  fastsend: false
+  scale: 0.26666666666666666
+'1225':
+  image: streetcorn.png
+  x: 256
+  y: 128
+  fastsend: false
+  scale: 0.26666666666666666
+'1226':
+  image: streetcorn.png
+  x: 256
+  y: 256
+  fastsend: false
+  scale: 0.26666666666666666
+'1227':
+  image: streetcorn.png
+  x: 384
+  y: 0
+  fastsend: false
+  scale: 0.26666666666666666
+'1228':
+  image: streetcorn.png
+  x: 384
+  y: 128
+  fastsend: false
+  scale: 0.26666666666666666
+'1229':
+  image: streetcorn.png
+  x: 384
+  y: 256
+  fastsend: false
+  scale: 0.26666666666666666

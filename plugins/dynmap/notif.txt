@@ -1,0 +1,2 @@
+This directory will not reflect the files in production, as the files are far to numerous to merge into Github, and they are being updated in production.
+This directory will only hold config files.

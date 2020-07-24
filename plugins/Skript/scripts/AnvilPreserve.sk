@@ -1,0 +1,8 @@
+options:
+	version: 1.0.0
+
+on script load:
+	send "&b[Skript] AnvilPreserve &6{@version} &bLoaded" to console
+
+on anvil damage:
+	cancel event

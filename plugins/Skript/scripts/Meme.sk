@@ -1,0 +1,88 @@
+#
+#If this ever reaches a public release, (god forbid) I will provide a tutorial in the comments of this script.
+#
+#If you want to create a new string, you must define it as a variable under options, then add the vars to the lists under command
+#
+options:
+	version: 2.0.0
+	
+	#These strings involve a person
+	clap: "&4&l[&9&lPublic Service Announcement&4&l]&r  &b&l%arg-1% &fwas trying to sneak but they're dummy thicc, and the clap of their ass cheeks alerted the guards!"
+	syria: "&4&l[&9&lPublic Service Announcement&4&l]&r  &b&l%arg-1% &fstarted the syrian civil war!"
+	gay: "&4&l[&9&lPublic Service Announcement&4&l]&r  &b&l%arg-1% &fis very gay."
+	pickle: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lSo there this scientist, his name is &b&l%arg-1% &f&land he turned himeself into a pickle, he was pickle &b&l%arg-1%, &f&lfunniest shit I've ever seen!"
+	osama: "&4&l[&9&lPublic Service Announcement&4&l]&r  &b&l%arg-1% &fwas Osama Bin Laden all along."
+	pog: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lPoggers! &b&l%arg-1% &fwas caught in the crossfire of a gang war!"
+	dildo: "&4&l[&9&lPublic Service Announcement&4&l]&r  &b&l%arg-1%&f, we don't want to see your &d&ldragon dildo&f, Fuck Off."
+	cringe: "&4&l[&9&lPublic Service Announcement&4&l]&r  &b&l%arg-1%&f is cringe."
+	#These strings dont involve a person	
+	#	nig: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lNigga"
+	study: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lStudies show that you are all retarded."
+	phub: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lBro check out this link:&b&n https://www.pornhub.com/view_video.php?viewkey=ph5d3cca29e66df"
+	ngay: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lWoah... &b&nhttps://i.imgur.com/amIDXKV.png"
+	robux: "&4&l[&9&lPublic Service Announcement&4&l]&r &lFree Robux Tutorial!!! &b&nhttps://youtu.be/dQw4w9WgXcQ"
+	shit: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lBorn to shit, forced to wipe."
+	nomeme: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lThere is no meme, take off your clothes."
+	hentai: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lDid you know: the assasination of Archduke Franz Ferdinand led to the invention of &d&lhentai!"
+	rick: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lLearn more about this server at &b&nhttp://info.frumentum-mc.net/"
+
+on script load:
+	send "&b[Skript] MemeCommand &6{@version} &bLoaded" to console
+
+command /meme [<text>]:
+	cooldown: 30 seconds
+	cooldown message: &cPlease wait &e%remaining% &cbefore doing that again
+	cooldown bypass: skript.meme.bypass
+	trigger:
+		if player has permission "skript.meme":
+			if arg-1 is not "help":
+				if arg-1 is set:
+					if arg-1 is set:
+						#Listed vars invlove a person					
+						set {_meme::*} to {@clap}, {@syria}, {@pickle}, {@osama}, {@pog}, {@dildo}, {@cringe} and {@gay}
+						set {_meme} to random element out of {_meme::*}
+						broadcast {_meme}
+				else:
+					#Listed vars dont involve a person
+					set {_meme::*} to {@study}, {@ngay}, {@robux}, {@shit}, {@nomeme}, {@hentai}, {@rick} and {@phub}
+					set {_meme} to random element out of {_meme::*} 
+					broadcast {_meme}
+			else:
+				send "&4=============================================="
+				send "                         &b/meme usage"
+				send ""
+				send "&2/meme"
+				send "   &dWill make an important PSA"
+				send "&2/meme <Name>"
+				send "   &dWill send an important PSA about chosen person"
+				send ""
+				send "&eWarning! Some of these messages are offensive!"
+				send "&4=============================================="
+		else:
+			send "&cYou have been locked out of this command!"
+
+command /psa [<string>]:
+	permission: skript.psa
+	trigger:
+		set {_psa} to colored arg-1
+		broadcast "&4&l[&9&lPublic Service Announcement&4&l]&r  &l%{_psa}%"
+
+command /memeidea [<string>]:
+	trigger:
+		if arg-1 is set:
+			if arg-1 is "read":
+				if player has permission "skript.meme.read":
+					send {memeidea::*}
+					stop
+			if arg-1 is "clear":
+				if player has permission "skript.meme.clear":
+					clear {memeidea::*}
+					send "&4Meme Suggestions list has been cleared!"
+			else:
+				set {_mplayer} to name of player
+				set {_msugg} to arg-1
+				set {_minter} to "&6%{_msugg}% &7by &b%{_mplayer}%"
+				add {_minter} to {memeidea::*}
+				send "&aYour suggestion has been recorded!"
+		else:
+			send "&cSuggestion Required"

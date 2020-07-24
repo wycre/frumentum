@@ -1,0 +1,36 @@
+debug_mode: false
+enable_chat_prefix: true
+chat_line_color: '&2'
+save_timer: 60
+grave_timer: 1200
+enable_timer: false
+grave_block: coarse_dirt
+spawn_zombie_on_not_owner_break: false
+spawn_zombie_on_owner_break: false
+zombie_hp: 20
+can_zombie_pickup_items: true
+execute_command_on_respawn: false
+execute_command_on_grave_break: false
+command_: ''
+command_on_grave_break: ''
+drop_items_on_player_kill: false
+enable_token_use: false
+enable_token_craft: false
+enable_token_drop: false
+token_drop_mob: GHAST
+token_drop_amount: 1
+token_drop_chance: 0.05
+token_item: MAGMA_CREAM
+token_craft_recipe: GOLD_INGOT:GOLD_INGOT:GOLD_INGOT-GOLD_INGOT:DIAMOND:GOLD_INGOT-GOLD_INGOT:CHEST:GOLD_INGOT
+use_vault: false
+grave_cost: 0
+enable_worldguard_support: true
+disabled_worlds:
+- hub
+- creative
+- minigames
+worlds_aliases:
+- survival::The Overworld
+- survival_nether::The Nether
+- survival_the_end::The End
+do_safe_grave_spawn: false
