@@ -23,4 +23,4 @@ This branch has added basic config files to the root repository***
 This branch adds all server plugin files, as well as their configs.  
 These files do not include:  
 - Dynmap tiles
-- DiscordSRV plugin file
+- DiscordSRV Content
