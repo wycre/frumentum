@@ -1,6 +1,28 @@
+#Files not to be saved in git
+
+#system, cache, & logs
+cache/
+logs/
+.console_history
+usercache.json
+version_history.json
+
+#worldata & playerdata
 survival/
 survival_nether/
 survival_the_end/
+plugins/Essentials/userdata/
+plugins/Essentials/usermap.csv
+plugins/Essentials/warps/
+plugins/Multiverse-Inventories/worlds/
+plugins/Multiverse-Inventories/players/
+plugins/Multiverse-Inventories/groups/
+
+#plugin files
+plugins/DiscordSRV-Build-1.19.1.jar
+plugins/Dynmap-3.1-beta-1-spigot.jar
+
+#plugin data
 plugins/DiscordSRV/
 plugins/dynmap/colorschemes
 plugins/dynmap/export
@@ -9,13 +31,6 @@ plugins/dynmap/renderdata
 plugins/dynmap/templates
 plugins/dynmap/texturepacks
 plugins/dynmap/web
-usercache.json
-version_history.json
-cache/
-logs/
-plugins/Essentials/userdata/
-plugins/Essentials/usermap.csv
-plugins/Essentials/warps
 plugins/Essentials/upgrades-done.yml
 plugins/PluginMetrics/
 plugins/Updater/
@@ -33,10 +48,8 @@ plugins/dynmap/survival.pending
 plugins/dynmap/survival_nether.pending
 plugins/dynmap/survival_the_end.pending
 plugins/dynmap/ids-by-ip.txt
-.console_history
-plugins/Multiverse-Inventories/worlds/
-plugins/Multiverse-Inventories/players/
-plugins/Multiverse-Inventories/groups
 plugins/ImageMaps/maps.yml
 plugins/WorldGuard/cache/
 plugins/WorldGurad/worlds/
+plugins/dynmap/hiddenplayers.txt
+plugins/dynmap/markers.yml.old
