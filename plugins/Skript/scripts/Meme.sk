@@ -16,7 +16,7 @@ options:
 	dildo: "&4&l[&9&lPublic Service Announcement&4&l]&r  &b&l%arg-1%&f, we don't want to see your &d&ldragon dildo&f, Fuck Off."
 	cringe: "&4&l[&9&lPublic Service Announcement&4&l]&r  &b&l%arg-1%&f is cringe."
 	#These strings dont involve a person	
-	#	nig: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lNigga"
+	nig: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lNigga"
 	study: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lStudies show that you are all retarded."
 	phub: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lBro check out this link:&b&n https://www.pornhub.com/view_video.php?viewkey=ph5d3cca29e66df"
 	ngay: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lWoah... &b&nhttps://i.imgur.com/amIDXKV.png"
@@ -25,6 +25,8 @@ options:
 	nomeme: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lThere is no meme, take off your clothes."
 	hentai: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lDid you know: the assasination of Archduke Franz Ferdinand led to the invention of &d&lhentai!"
 	rick: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lLearn more about this server at &b&nhttp://info.frumentum-mc.net/"
+	history0: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lYour search history has been made public, &d&owow..."
+	history1: "&4&l[&9&lPublic Service Announcement&4&l]&r  &lYour search history has been made public, &d&oyou have good taste!"
 
 on script load:
 	send "&b[Skript] MemeCommand &6{@version} &bLoaded" to console
@@ -44,7 +46,7 @@ command /meme [<text>]:
 						broadcast {_meme}
 				else:
 					#Listed vars dont involve a person
-					set {_meme::*} to {@study}, {@ngay}, {@robux}, {@shit}, {@nomeme}, {@hentai}, {@rick} and {@phub}
+					set {_meme::*} to {@study}, {@ngay}, {@robux}, {@shit}, {@nomeme}, {@hentai}, {@rick}, {@nig}, {@history0}, {@history1} and {@phub}
 					set {_meme} to random element out of {_meme::*} 
 					broadcast {_meme}
 			else:
