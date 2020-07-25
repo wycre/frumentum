@@ -6,6 +6,7 @@ logs/
 .console_history
 usercache.json
 version_history.json
+.gitignore.save
 
 #worldata & playerdata
 survival/
@@ -53,3 +54,4 @@ plugins/WorldGuard/cache/
 plugins/WorldGurad/worlds/
 plugins/dynmap/hiddenplayers.txt
 plugins/dynmap/markers.yml.old
+plugins/Skript/backups/
