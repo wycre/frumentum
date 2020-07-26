@@ -1,0 +1,172 @@
+###########################################################
+# - Dann's World Generator - Oasis Desert Demo Config --- #
+# - author: Dan Negura (contact.dann@icloud.com) -------- #
+# - Get help here -> https://worldgenerator.dann.studio - #
+###########################################################
+
+###########################################################
+# Chunk Generator Timer                                   #
+###########################################################
+# If enabled, this feature prints statistics about the
+# chunk generation performance.
+print-statistics:
+  # Enable or disable the console logging of statistics.
+  enabled: false
+  # The interval of chunks between each log.
+  interval: 100
+
+###########################################################
+# Custom Trees From Saplings                              #
+###########################################################
+# Replaces the vanilla trees with custom trees when a
+# sapling grows.
+# Note: some custom trees are currently available for this
+# feature.
+custom-trees-from-saplings:
+  # Enable or disable custom trees.
+  enabled: false
+
+###########################################################
+# Smooth Bedrock                                          #
+###########################################################
+# If set to 'true' the bedrock layer will have one block
+# thickness at y-level 0. Default is 'false'.
+smooth-bedrock: false
+
+###########################################################
+# Ore Veins                                               #
+###########################################################
+# This section allows you to fully modify, remove, or add
+# types of veins to the world.
+# Below is a description of a vein type configuration and
+# what each field does.
+#
+#  vanilla-coal:               <- unique name of choice for the type
+#    element-type: 'COAL_ORE'  <- ElementData placed as ore
+#    ores-per-chunk: 170       <- total blocks attempted per chunk (value >= 1)
+#    vertical-region:          <- defines the y-level these veins spawn in
+#      max-y: 110              <- (min-y < value < 256)
+#      min-y: 0                <- (0 <= min-y < value)
+#    ores-per-vein:
+#      min: 5                  <- minimum ores per vein (0 < value)
+#      variation: 13           <- random variation per vein on top of min (0 < value)
+#    replaces: ['STONE', 'DIORITE'] <- list of elements an ore can be placed into
+#
+# Note that the list of possible elements to be placed
+# doesn't contain all the materials from Minecraft, but
+# contains regular ones. A message in console will
+# tell you the ElementData doesn't exist, and the vein will
+# be ignored.
+veins:
+  vanilla-coal:
+    element-type: 'COAL_ORE'
+    ores-per-chunk: 170
+    vertical-region:
+      max-y: 110
+      min-y: 0
+    ores-per-vein:
+      min: 5
+      variation: 13
+    replaces: ['STONE']
+
+  vanilla-iron-common:
+    element-type: 'IRON_ORE'
+    ores-per-chunk: 110
+    vertical-region:
+      max-y: 52
+      min-y: 0
+    ores-per-vein:
+      min: 4
+      variation: 4
+    replaces: ['STONE']
+
+  vanilla-iron-rare:
+    element-type: 'IRON_ORE'
+    ores-per-chunk: 20
+    vertical-region:
+      max-y: 80
+      min-y: 52
+    ores-per-vein:
+      min: 3
+      variation: 3
+    replaces: ['STONE']
+
+  vanilla-gold:
+    element-type: 'GOLD_ORE'
+    ores-per-chunk: 13
+    vertical-region:
+      max-y: 32
+      min-y: 0
+    ores-per-vein:
+      min: 3
+      variation: 6
+    replaces: ['STONE']
+
+  vanilla-redstone:
+    element-type: 'REDSTONE_ORE'
+    ores-per-chunk: 10
+    vertical-region:
+      max-y: 16
+      min-y: 0
+    ores-per-vein:
+      min: 4
+      variation: 3
+    replaces: ['STONE']
+
+  vanilla-lapis:
+    element-type: 'LAPIS_ORE'
+    ores-per-chunk: 3
+    vertical-region:
+      max-y: 20
+      min-y: 10
+    ores-per-vein:
+      min: 2
+      variation: 2
+    replaces: ['STONE']
+
+  vanilla-emerald:
+    element-type: 'EMERALD_ORE'
+    ores-per-chunk: 1
+    vertical-region:
+      max-y: 32
+      min-y: 0
+    ores-per-vein:
+      min: 1
+      variation: 1
+    replaces: ['STONE']
+
+  vanilla-diamond:
+    element-type: 'DIAMOND_ORE'
+    ores-per-chunk: 4
+    vertical-region:
+      max-y: 16
+      min-y: 0
+    ores-per-vein:
+      min: 2
+      variation: 6
+    replaces: ['STONE']
+
+  vanilla-dirt:
+    element-type: 'DIRT'
+    ores-per-chunk: 500
+    vertical-region:
+      max-y: 50
+      min-y: 0
+    ores-per-vein:
+      min: 60
+      variation: 100
+    replaces: ['STONE']
+
+  vanilla-gravel:
+    element-type: 'GRAVEL'
+    ores-per-chunk: 300
+    vertical-region:
+      max-y: 50
+      min-y: 0
+    ores-per-vein:
+      min: 70
+      variation: 100
+    replaces: ['STONE']
+
+# Do not change.
+config-version: '1.1'
