@@ -60,3 +60,4 @@ plugins/dynmap/markers.yml.old
 plugins/Skript/backups/
 plugins/gravy/graves.yml
 plugins/gravy/items.yml
+plugins/WorldEdit/sessions/

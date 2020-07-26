@@ -67,13 +67,19 @@ armor:
 	diamond boots = minecraft:diamond_boots
 	[any] diamond armo[u]r = diamond cap, diamond chestpiece, diamond pants, diamond boots
 
+	netherite (cap|helmet)¦s = minecraft:netherite_helmet
+	netherite chest(piece|plate)¦s = minecraft:netherite_chestplate
+	netherite (pants|leggings) = minecraft:netherite_leggings
+	netherite boots = minecraft:netherite_boots
+	[any] netherite armo[u]r = netherite cap, netherite chestpiece, netherite pants, netherite boots
+
 	chain[mail] (cap|helmet)¦s = minecraft:chainmail_helmet
 	chain[mail] chest(piece|plate)¦s = minecraft:chainmail_chestplate
 	chain[mail] (pants|leggings) = minecraft:chainmail_leggings
 	chain[mail] boots = minecraft:chainmail_boots
 	[any] chain[mail] armo[u]r = chain cap, chain chestpiece, chain pants, chain boots
 
-	[any] armo[u]r = leather armor, iron armor, gold armor, diamond armor, chain armor
+	[any] armo[u]r = leather armor, iron armor, gold armor, diamond armor, chain armor, netherite armor
 
 	# By equipment slot
 	[any] (cap|helmet)¦s = leather cap, iron cap, gold cap, diamond cap, chain cap
@@ -87,7 +93,8 @@ weapons:
 	gold[en] sword¦s = minecraft:golden_sword
 	iron sword¦s = minecraft:iron_sword
 	diamond sword¦s = minecraft:diamond_sword
-	[any] sword¦s = wooden sword, stone sword, golden sword, iron sword, diamond sword
+	netherite sword¦s = minecraft:netherite_sword
+	[any] sword¦s = wooden sword, stone sword, golden sword, iron sword, diamond sword, netherite sword
 
 	bow¦s = minecraft:bow
 	arrow¦s = minecraft:arrow[relatedEntity=arrow]
@@ -150,11 +157,11 @@ update aquatic categories:
 	[any] weapon¦s = any sword, bow, trident
 	[any] equipment = any weapon, any armor, shield
 
-nether update:
-	minecraft version = 1.16 or newer
-	netherite sword¦s = minecraft:netherite_sword
-
-	netherite (cap|helmet)¦s = minecraft:netherite_helmet
-	netherite chest(piece|plate)¦s = minecraft:netherite_chestplate
-	netherite (pants|leggings) = minecraft:netherite_leggings
-	netherite boots = minecraft:netherite_boots
+#nether update:
+#	minecraft version = 1.16 or newer
+#	netherite sword¦s = minecraft:netherite_sword
+#
+#	netherite (cap|helmet)¦s = minecraft:netherite_helmet
+#	netherite chest(piece|plate)¦s = minecraft:netherite_chestplate
+#	netherite (pants|leggings) = minecraft:netherite_leggings
+#	netherite boots = minecraft:netherite_boots

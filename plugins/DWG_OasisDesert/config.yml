@@ -71,7 +71,7 @@ veins:
 
   vanilla-iron-common:
     element-type: 'IRON_ORE'
-    ores-per-chunk: 110
+    ores-per-chunk: 112
     vertical-region:
       max-y: 52
       min-y: 0
@@ -82,7 +82,7 @@ veins:
 
   vanilla-iron-rare:
     element-type: 'IRON_ORE'
-    ores-per-chunk: 20
+    ores-per-chunk: 22
     vertical-region:
       max-y: 80
       min-y: 52
@@ -93,7 +93,7 @@ veins:
 
   vanilla-gold:
     element-type: 'GOLD_ORE'
-    ores-per-chunk: 13
+    ores-per-chunk: 17
     vertical-region:
       max-y: 32
       min-y: 0
@@ -104,7 +104,7 @@ veins:
 
   vanilla-redstone:
     element-type: 'REDSTONE_ORE'
-    ores-per-chunk: 10
+    ores-per-chunk: 15
     vertical-region:
       max-y: 16
       min-y: 0
@@ -115,7 +115,7 @@ veins:
 
   vanilla-lapis:
     element-type: 'LAPIS_ORE'
-    ores-per-chunk: 3
+    ores-per-chunk: 8
     vertical-region:
       max-y: 20
       min-y: 10
@@ -126,7 +126,7 @@ veins:
 
   vanilla-emerald:
     element-type: 'EMERALD_ORE'
-    ores-per-chunk: 1
+    ores-per-chunk: 10
     vertical-region:
       max-y: 32
       min-y: 0
@@ -137,7 +137,7 @@ veins:
 
   vanilla-diamond:
     element-type: 'DIAMOND_ORE'
-    ores-per-chunk: 4
+    ores-per-chunk: 8
     vertical-region:
       max-y: 16
       min-y: 0
