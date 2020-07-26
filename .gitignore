@@ -7,11 +7,14 @@ logs/
 usercache.json
 version_history.json
 .gitignore.save
+crash-reports/
 
 #worldata & playerdata
 survival/
 survival_nether/
 survival_the_end/
+dumb/
+test/
 plugins/Essentials/userdata/
 plugins/Essentials/usermap.csv
 plugins/Essentials/warps/
@@ -51,7 +54,10 @@ plugins/dynmap/survival_the_end.pending
 plugins/dynmap/ids-by-ip.txt
 plugins/ImageMaps/maps.yml
 plugins/WorldGuard/cache/
-plugins/WorldGurad/worlds/
+plugins/WorldGuard/worlds/
 plugins/dynmap/hiddenplayers.txt
 plugins/dynmap/markers.yml.old
 plugins/Skript/backups/
+plugins/gravy/graves.yml
+plugins/gravy/items.yml
+plugins/WorldEdit/sessions/
