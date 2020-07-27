@@ -21,6 +21,10 @@ plugins/Essentials/warps/
 plugins/Multiverse-Inventories/worlds/
 plugins/Multiverse-Inventories/players/
 plugins/Multiverse-Inventories/groups/
+plugins/gravy/graves.yml
+plugins/gravy/items.yml
+plugins/Dimensions/PlayerData/
+plugins/Dimensions/Portals/portalLocations.json
 
 #plugin files
 plugins/DiscordSRV-Build-1.19.1.jar
@@ -60,6 +64,5 @@ plugins/WorldGuard/worlds/
 plugins/dynmap/hiddenplayers.txt
 plugins/dynmap/markers.yml.old
 plugins/Skript/backups/
-plugins/gravy/graves.yml
-plugins/gravy/items.yml
 plugins/WorldEdit/sessions/
+plugins/Skript/variables.csv

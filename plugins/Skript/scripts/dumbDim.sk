@@ -1,5 +1,7 @@
 #Dumb Dimension (Working Title)
 #
+#ALL EVENTS MUST HAVE "if event-world is "dumb""
+#
 #Portal structure is 
 #
 #Bottom : Glass
@@ -13,33 +15,38 @@
 #Difficulty Changes for the Dumb Dimension
 #
 #All spawned entites have strength 2 for an hour
-#There is a 7% chance that lightning will strike a creeper when it spawns
+#There is a 10% chance that lightning will strike a creeper when it spawns
 #All xp orbs will reward the player a minimum of 1 level, regardless of actual value
 #
 options:
 	version: 1.0.0
 
 on script load:
-	send "&b[Skript] DimensionTraveller &6{@version} &bLoaded" to console
+	send "&b[Skript] ThunderMountainSkript &6{@version} &bLoaded" to console
 
 on right click:
-	if event-block is spruce log:
-		if block below event-block is glass:
-			if block above event-block is spruce leaves:
-				if player is in world "survival":
-					send "%event-player% used portal at %event-location% in %event-world%" to console
-					execute console command "/mvtp %event-player% dumb"
-					play sound "ambient.soul_sand_valley.mood" with volume 10 at the player
-				else if player is in world "dumb":
-					send "%event-player% used portal at %event-location% in %event-world%" to console
-					execute console command "/mvtp %event-player% survival"
-					play sound "ambient.soul_sand_valley.mood" with volume 10 at the player
-			else:
-				stop
-		else:
-			stop
-	else:
-		stop
+	if event-world is "dumb":
+		if event-block is any bed:
+			cancel event
+			make an explosion of force 5 at event-block with fire
+			strike lightning at event-block
+#	if event-block is spruce log:
+#		if block below event-block is glass:
+#			if block above event-block is spruce leaves:
+#				if player is in world "survival":
+#					send "%event-player% used portal at %event-location% in %event-world%" to console
+#					execute console command "/mvtp %event-player% dumb"
+#					play sound "ambient.soul_sand_valley.mood" with volume 10 at the player
+#				else if player is in world "dumb":
+#					send "%event-player% used portal at %event-location% in %event-world%" to console
+#					execute console command "/mvtp %event-player% survival"
+#					play sound "ambient.soul_sand_valley.mood" with volume 10 at the player
+#			else:
+#				stop
+#		else:
+#			stop
+#	else:
+#		stop
 
 on spawn:
 	if event-world is "dumb":
@@ -50,7 +57,7 @@ on spawn:
 		heal event-entity
 		equip event-entity with any armor
 		if event-entity is creeper:
-			chance of 7%:
+			chance of 10%:
 				strike lightning at event-entity
 				apply potion of fire resistance to event-entity for 10 seconds
 	else:
@@ -70,3 +77,11 @@ on death:
 					drop gold ingot at victim
 				chance of 20%:
 					drop iron ingot at victim
+
+on player world change:
+	if world is "dumb":
+		if previous world is "survival":
+			play sound "ambient.soul_sand_valley.mood" with volume 10 at the player
+	if world is "survival":
+		if previous world is "dumb":
+			play sound "ambient.soul_sand_valley.mood" with volume 10 at the player
