@@ -1,0 +1,25 @@
+Enable: true
+DisplayName: Thunder Mountain Portal
+Portal:
+  Block:
+    Material: stone_bricks
+    Face: all
+  ParticlesColor: 0;0;0
+  Frame: nether_portal
+  Lighter: blaze_rod
+  MinWidth: 4
+  MinHeight: 5
+World:
+  Name: dumb
+  Ratio: '1:1'
+  MaxHeight: 256
+BuildExitPortal: true
+Entities:
+  Transformation: []
+  Spawning:
+    Delay: 36000-72000
+    List: []
+SpawnOnAir: false
+DisabledWorlds:
+- survival_nether
+- survival_the_end
