@@ -65,3 +65,4 @@ plugins/dynmap/hiddenplayers.txt
 plugins/dynmap/markers.yml.old
 plugins/Skript/backups/
 plugins/WorldEdit/sessions/
+plugins/Skript/variables.csv
