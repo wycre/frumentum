@@ -25,7 +25,7 @@ on script load:
 on right click:
 	if event-block is spruce log:
 		if block below event-block is glass:
-			if block above event-block is brown mushroom:
+			if block above event-block is spruce leaves:
 				if player is in world "survival":
 					send "%event-player% used portal at %event-location% in %event-world%" to console
 					execute console command "/mvtp %event-player% dumb"
@@ -61,8 +61,8 @@ on player pickup xp:
 		add 1 to level of player
 
 on death:
-	if event-entity is not a player:
-		if event-entity is a zombie:
+	if event-world is "dumb":
+		if event-entity is not a player:
 			chance of 90%:
 				chance of 8%:
 					drop diamond at victim
