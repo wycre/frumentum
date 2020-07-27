@@ -3,6 +3,7 @@
 #system, cache, & logs
 cache/
 logs/
+crash-reports/
 .console_history
 usercache.json
 version_history.json
@@ -12,6 +13,7 @@ version_history.json
 survival/
 survival_nether/
 survival_the_end/
+dumb/
 plugins/Essentials/userdata/
 plugins/Essentials/usermap.csv
 plugins/Essentials/warps/
@@ -52,6 +54,7 @@ plugins/dynmap/ids-by-ip.txt
 plugins/ImageMaps/maps.yml
 plugins/WorldGuard/cache/
 plugins/WorldGurad/worlds/
+plugins/WorldEdit/sessions/
 plugins/dynmap/hiddenplayers.txt
 plugins/dynmap/markers.yml.old
 plugins/Skript/backups/
