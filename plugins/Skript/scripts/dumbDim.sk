@@ -1,0 +1,72 @@
+#Dumb Dimension (Working Title)
+#
+#Portal structure is 
+#
+#Bottom : Glass
+#Middle : Spruce Log
+#Top : Brown Mushroom
+#
+#Right click on spruce log! to travel.
+#Will take you to world spawn
+#
+#
+#Difficulty Changes for the Dumb Dimension
+#
+#All spawned entites have strength 2 for an hour
+#There is a 7% chance that lightning will strike a creeper when it spawns
+#All xp orbs will reward the player a minimum of 1 level, regardless of actual value
+#
+options:
+	version: 1.0.0
+
+on script load:
+	send "&b[Skript] DimensionTraveller &6{@version} &bLoaded" to console
+
+on right click:
+	if event-block is spruce log:
+		if block below event-block is glass:
+			if block above event-block is spruce leaves:
+				if player is in world "survival":
+					send "%event-player% used portal at %event-location% in %event-world%" to console
+					execute console command "/mvtp %event-player% dumb"
+					play sound "ambient.soul_sand_valley.mood" with volume 10 at the player
+				else if player is in world "dumb":
+					send "%event-player% used portal at %event-location% in %event-world%" to console
+					execute console command "/mvtp %event-player% survival"
+					play sound "ambient.soul_sand_valley.mood" with volume 10 at the player
+			else:
+				stop
+		else:
+			stop
+	else:
+		stop
+
+on spawn:
+	if event-world is "dumb":
+		apply strength 4 to event-entity for 1 hour
+		apply fire resistance to event-entity for 1 hour
+		apply absorption to event-entity for 1 hour
+		apply health boost to event-entity for 1 hour
+		heal event-entity
+		equip event-entity with any armor
+		if event-entity is creeper:
+			chance of 7%:
+				strike lightning at event-entity
+				apply potion of fire resistance to event-entity for 10 seconds
+	else:
+		stop
+
+on player pickup xp:
+	if event-world is "dumb":
+		add 1 to level of player
+
+on death:
+	if event-world is "dumb":
+		if event-entity is not a player:
+			chance of 90%:
+				chance of 8%:
+					drop diamond at victim
+				chance of 15%:
+					drop gold ingot at victim
+				chance of 20%:
+					drop iron ingot at victim

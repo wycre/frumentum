@@ -9,5 +9,7 @@ on bed enter:
 	wait 40 ticks
 	set time to day
 	broadcast "&b%player% &e&lhas slept, and skipped the night"
-	if weather is not clear:
-		clear weather
+	if event-world is "survival":
+		execute console command "/weather survival sun"
+	else if event-world is "dumb":
+		execute console command "/weather dumb sun"

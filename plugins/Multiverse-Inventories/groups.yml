@@ -5,8 +5,9 @@
 groups:
   default:
     worlds:
-    - survival
     - survival_nether
+    - survival
+    - dumb
     - survival_the_end
     shares:
     - all

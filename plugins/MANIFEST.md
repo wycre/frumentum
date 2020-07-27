@@ -1,4 +1,5 @@
 # Plugins
+
 In no particular order
 
 - DiscordSRV
@@ -68,3 +69,6 @@ In no particular order
 - Worldguard
   - [Github](https://github.com/enginehub/worldguard)
   - [Bukkit](https://dev.bukkit.org/projects/worldguard)
+- Danns World Generator
+  - [Spigot](https://www.spigotmc.org/resources/danns-world-generator-oasis-desert-demo-1-14-x-1-15-x-uses-an-organic-tree-generator.74083/)
+  - [Donate](https://www.patreon.com/dannsworldgenerator/posts)
