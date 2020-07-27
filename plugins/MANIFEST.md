@@ -72,3 +72,9 @@ In no particular order
 - Danns World Generator
   - [Spigot](https://www.spigotmc.org/resources/danns-world-generator-oasis-desert-demo-1-14-x-1-15-x-uses-an-organic-tree-generator.74083/)
   - [Donate](https://www.patreon.com/dannsworldgenerator/posts)
+- Dimensions
+  - [Spigot](https://www.spigotmc.org/resources/dimensions-custom-portals.57542/)
+  - [Donate](https://www.paypal.me/astaspastaGR)
+- ProtocolLib
+  - [Spigot](https://www.spigotmc.org/resources/protocollib.1997/)
+  - [Donate](https://paypal.me/dmulloy2)
