@@ -145,6 +145,17 @@ veins:
       min: 2
       variation: 6
     replaces: ['STONE']
+	
+  custom-netherite:
+    element-type: 'ANCIENT_DEBRIS'
+    ores-per-chunk: 2
+    vertical-region:
+      max-y: 12
+      min-y: 0
+    ores-per-vein:
+      min: 1
+      variation: 2
+    replaces: ['STONE']
 
   vanilla-dirt:
     element-type: 'DIRT'
