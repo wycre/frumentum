@@ -85,3 +85,4 @@ on player world change:
 	if world is "survival":
 		if previous world is "dumb":
 			play sound "ambient.soul_sand_valley.mood" with volume 10 at the player
+			execute console command "/effect clear %event-player%"
