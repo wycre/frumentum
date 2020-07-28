@@ -96,7 +96,7 @@ worlds:
   dumb:
     ==: MVWorld
     hidden: 'false'
-    alias: Thunder Mountain
+    alias: Thunder Mountains
     color: GOLD
     style: NORMAL
     pvp: 'true'
