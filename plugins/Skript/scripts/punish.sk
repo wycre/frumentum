@@ -1,0 +1,51 @@
+options:
+	version: 1.0.0
+
+on script load:
+	send "&b[Skript] PunishMenu &6{@version} &bLoaded" to console
+
+command /punish [<text>]:
+	aliases: /pu
+	permission: skript.admin
+	trigger:
+		if arg-1 is set:
+			if arg-1 parsed as a player is set:
+				set {_t} to arg-1 parsed as a player
+				open chest with 2 rows named "Punish %{_t}%" to player
+
+				set slot 3 of player's current inventory to diamond sword named "&bSmite" with lore "Strike them down!" without any NBT
+				set slot 4 of player's current inventory to jukebox named "&eHumiliate" with lore "Broadcast that this guy is cringe"
+				set slot 5 of player's current inventory to stone sword named "&cKick" with lore "Will kick %{_t}%" without any NBT
+				set slot 13 of player's current inventory to jukebox named "&ePaint a Target" with lore "Will tell everyone to go after %{_t}%"
+
+
+			else:
+				send "The player &c%arg-1% &7is not found."
+		else:
+			send "&cSpecify A player"
+
+on inventory click:
+	if type of clicked inventory is chest inventory:
+		if inventory name of player's current inventory starts with "Punish ":
+			cancel event
+			set {_name::*} to inventory name of player's current inventory split at " "
+			set {_target} to {_name::2}
+			set {_target} to {_target} parsed as an offline player
+
+#Smite
+			if clicked slot is 3:
+				close player's inventory
+				execute console command "/smite %{_target}%"
+				send "&b%{_target}% &ehas been struck down."
+
+			else if clicked slot is 4:
+				close player's inventory
+				broadcast "&c%{_target}% &bis a fucking loser lol"
+				
+			else if clicked slot is 5:
+				close player's inventory
+				execute console command "/kick %{_target}% Fuck You"
+				
+			else if clicked slot is 13:
+				close player's inventory
+				broadcast "&c%{_target}% &bis a terrible person, go get them!"
