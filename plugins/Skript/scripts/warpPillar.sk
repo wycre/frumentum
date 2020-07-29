@@ -1,0 +1,24 @@
+options:
+	version: 1.0.0
+
+on script load:
+	send "&b[Skript] WarpPillar &6{@version} &bLoaded" to console
+
+on right click:
+	if event-block is glowstone:
+		if block below event-block is smooth quartz:
+			if block above event-block is smooth quartz:
+				execute console command "/minecraft:tp Aclamendo 744 83 -2122 180 0"
+				execute console command "/psa %event-player% has entered the trials of &dbullshit&f!"
+			else:
+				stop
+		else if block below event-block is quartz pillar:
+			if block above event-block is quartz pillar:
+				execute player command "/back"
+				execute console command "/psa %event-player% is a &dpussy&f!"
+			else:
+				stop
+		else:
+			stop
+	else:
+		stop
