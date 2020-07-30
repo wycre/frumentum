@@ -2,7 +2,7 @@ DebugLevel: 0
 MaxRadius: 10
 DefaultWorld: world
 EnableParticles: false
-EnableMobsTeleportation: false
+EnableMobsTeleportation: true
 TeleportDelay: 4
 SearchRadius: 128
 SafeSpotSearchRadius: 16

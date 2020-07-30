@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##S",
+        "#SS",
+        "SSS"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cobblestone"
+        },
+        "S": {
+            "item": "minecraft:sand"
+        }
+    },
+    "result": {
+        "item": "minecraft:gravel",
+        "count": 16
+    }
+}
