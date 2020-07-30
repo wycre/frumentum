@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:andesite_slab",
+            "item_h": "minecraft:andesite_slab"
+        },
+        {
+            "item": "minecraft:andesite_slab",
+            "item_h": "minecraft:andesite_slab"
+        }
+    ],
+    "result": {
+        "item": "minecraft:andesite",
+        "count": 1
+    }
+}

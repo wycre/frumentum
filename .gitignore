@@ -11,7 +11,17 @@ version_history.json
 crash-reports/
 
 #worldata & playerdata
-survival/
+survival/advancements/
+survival/data/
+survival/playerdata/
+survival/poi/
+survival/region/
+survival/stats/
+survival/level.dat
+survival/level.dat_old
+survival/session.lock
+survival/uid.dat
+
 survival_nether/
 survival_the_end/
 dumb/
@@ -67,3 +77,4 @@ plugins/dynmap/markers.yml.old
 plugins/Skript/backups/
 plugins/WorldEdit/sessions/
 plugins/Skript/variables.csv
+plugins/ProtocolLib/lastupdate

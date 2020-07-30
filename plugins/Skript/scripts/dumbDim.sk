@@ -50,10 +50,10 @@ on right click:
 
 on spawn:
 	if event-world is "dumb":
-		apply strength 4 to event-entity for 1 hour
-		apply fire resistance to event-entity for 1 hour
-		apply absorption to event-entity for 1 hour
-		apply health boost to event-entity for 1 hour
+		apply strength 4 to event-entity for 900 seconds
+		apply fire resistance to event-entity for 900 seconds
+		apply absorption to event-entity for 900 seconds
+		apply health boost to event-entity for 900 seconds
 		heal event-entity
 		equip event-entity with any armor
 		if event-entity is creeper:
