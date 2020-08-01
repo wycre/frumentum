@@ -12,7 +12,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 84.5,
+          "weight": 84,
           "quality": -1,
           "name": "minecraft:gameplay/fishing/fish"
         },
@@ -35,7 +35,7 @@
               "entity": "this"
             }
           ],
-          "weight": 0.5,
+          "weight": 1,
           "quality": 10,
           "name": "minecraft:gameplay/fishing/disc"
         }

@@ -9,6 +9,7 @@ usercache.json
 version_history.json
 .gitignore.save
 crash-reports/
+debug/
 
 #worldata & playerdata
 survival/advancements/
