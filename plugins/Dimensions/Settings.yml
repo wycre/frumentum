@@ -1,6 +1,8 @@
+ConsumeItems: true
+NetherPortalEffect: true
 DebugLevel: 0
 MaxRadius: 10
-DefaultWorld: world
+DefaultWorld: survival
 EnableParticles: false
 EnableMobsTeleportation: true
 TeleportDelay: 4
