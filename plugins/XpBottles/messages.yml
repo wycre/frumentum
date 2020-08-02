@@ -14,8 +14,9 @@ messages:
   exp-taken: '&cExp was taken!'
   exp-given: '&bExp was given!'
   redeem:
+  - '&eBottle Thrown!'
   withdraw:
-  - '&4Bottle Created!'
+  - '&bBottle Created!'
   withdrawal-item-dropped:
   - '&cWARNING: &aInventory was full, exp bottle was dropped below you!'
   given-withdraw:
