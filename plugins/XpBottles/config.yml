@@ -1,0 +1,39 @@
+# 
+#                                   #
+#      XpBottles by: CodedRed       #
+#                                   #
+max-bottle-amount: 100000
+min-bottle-amount: 50
+bottle:
+  name: '&9&lExpBottle &7(Right Click)'
+  lore:
+  - '&bExp: &f%exp%'
+  - '&bSigner: &f%signer%'
+  glow: true
+  tax:
+    enabled: false
+    percent: 5
+  cost:
+    enabled: false
+    amount: 100
+reject-crafting: true
+reject-villager-trading: true
+withdraw-sound:
+  sound: ENTITY_COW_DEATH
+  enabled: false
+redeem-sound:
+  sound: ENTITY_LLAMA_CHEST
+  enabled: false
+drop-bottle:
+  enabled: false
+use-perm-based-exp: false
+permission:
+  default:
+    max-bottle-amount: 1000.0
+    min-bottle-amount: 50.0
+  resident:
+    max-bottle-amount: 5000.0
+    min-bottle-amount: 50.0
+custom-drop-name:
+  enabled: true
+  name: '&d&lExp Bottle'
