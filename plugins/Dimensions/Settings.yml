@@ -1,4 +1,4 @@
-ConsumeItems: true
+ConsumeItems: false
 NetherPortalEffect: true
 DebugLevel: 0
 MaxRadius: 10
