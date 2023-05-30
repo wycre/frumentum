@@ -1,0 +1,24 @@
+enUS:
+  access-denied: '&cAccess denied'
+  players-only: Not for console use
+  invalid-number: '&cThat is not a valid numeric value!'
+  invalid-player: '&cThat player is either invalid or not online!'
+  insufficient-xp: '&cYou do not have enough XP for that!'
+  specify-amount: '&cThat just means type the AMOUNT of XP you want to withdraw, do
+    not literally use (amount) :)'
+  no-xp: '&cYou cannot withdraw when you have no XP!'
+  reloaded: '&6Configuration reloaded'
+  help-withdraw: '&a/xpb withdraw &eamount &7- &6Create an XP bottle.  Use ALL or
+    * to withdraw all your xp'
+  help-cfg-trigger: '&a/xpb cfg trigger &e[true | false] &7- &6Set trigger method'
+  help-reload: '&a/cmd reload &7- &6Reloads configuration'
+  help-player: '&a/xpb player &edonator &eamt &7(recipient) &7- &6Create an XP bottle
+    with XP from donator and optionally deliver to recipient'
+  bottle-created: '&6Created XP bottle!'
+  bottle-created-location: '&7Created XP bottle, but your inv was full so dropped
+    at your location.'
+  xp-added: '&6Added &a%amount% &6XP!'
+  trigger-set-true: '&6XP bottles will be used as stock now (right click and they
+    throw and break)'
+  trigger-set-false: '&6XP bottles will have their XP automatically added to the player
+    when they right click now'

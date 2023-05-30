@@ -1,0 +1,10 @@
+bottle-title: '&aXP Bottle'
+bottle-lore:
+- '&7%amount% XP %levelsadded%'
+- '&fBottled by %creator%'
+levels-added: '&8(%levels% level!s)'
+donated-bottle-lore:
+- '&7%amount% XP %levelsadded%'
+- '&fDonated by %donator%'
+- '&fBottled by %creator%'
+use-stock-trigger: true

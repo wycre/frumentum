@@ -1,0 +1,49 @@
+options:
+	prefix: &2[SignEditor] &a
+	signEdited: Line &7%arg 2% &awas changed to &7%colored arg 3% 
+	needHelp: &aUse: /signedit help
+	lineNotSet: You did not select a line
+	lineNotIsANumber: The line has to be a number
+	skReloaded: Script reloaded! (if you have any error check console)
+	errorNotTargetSign: &cThe block you are looking at is not a sign
+	errorSignOnly4Lines: The signs only have 4 lines
+	noPermission: &cYou do not have permissions to do that!
+	version: 1.0.1
+
+on script load:
+	send "&b[Skript] SignEditor &6{@version} &bLoaded" to console
+
+command /signeditor [<text>] [<number>] [<text>]:
+	permission: signeditor.command
+	trigger:
+		if arg 1 is not set:
+			send "{@prefix}{@needHelp}"
+		else if arg 1 is "help":
+			send "{@prefix}Command list:"
+			send "&2> &a/signedit edit <line> <text> &2- &fEdit the poster you are looking at"
+			send "&2> &a/signshop reload &6- &fReload the script"
+		else if arg 1 is "edit":
+			if player has permission "signeditor.edit":
+				if target block is sign:
+					if arg-2 is between 1 and 4:
+						if arg 2 is 1:
+							set 1st line of target block to colored arg-3
+						else if arg 2 is 2:
+							set 2nd line of target block to colored arg-3
+						else if arg 2 is 3:
+							set 3rd line of target block to colored arg-3
+						else if arg 2 is 4:
+							set 4th line of target block to colored arg-3
+						send "{@prefix}{@signEdited}" to player
+					else:
+						send "{@prefix}{@errorSignOnly4Lines}"
+			else if player doesn't have permission "signeditor.edit":
+				send "{@prefix}{@noPermission}"
+		else if arg 1 is "reload":
+			if player has permission "signeditor.reload":
+				execute console command "/sk reload %script%"
+				send "{@prefix}{@skReloaded}"
+			else if player doesn't have permission "signeditor.reload":
+				send "{@prefix}{@noPermission}"
+		else:
+			send "&6[SignShop] &eThe subcommand does not exist! &e" to player

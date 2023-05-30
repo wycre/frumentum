@@ -1,0 +1,26 @@
+options:
+    version: 1.0.0
+
+on script load:
+    send "&b[Skript] FeaturesCommand &6{@version} &bLoaded" to console
+
+command /features:
+    permission: skript.features
+    trigger:
+        send "&6Use &c/help &6to learn how to use these features"
+        send "&aGraves"
+        send "&aVeinminer"
+        send "&a/meme"
+        send "&a/itemname"
+        send "&a/itemlore"
+        send "&aNo Enderman Grief"
+        send "&aNo anvil damage"
+        send "&aImagemaps"
+        send "&aPlay on bedrock"
+        send "&aLink to discord"
+        send "&aCustom Recipes"
+        send "&aModified Loot tables"
+        send "&aAuto fishing is back!"
+        send "&aShulker boxes don't despawn"
+        send "&aGreentext in chat"
+        send "&aNew Dimension!"

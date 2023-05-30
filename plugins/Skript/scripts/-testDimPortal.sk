@@ -1,0 +1,76 @@
+#TestDim Dimension (Working Title)
+#
+#ALL EVENTS MUST HAVE "if event-world is "TestDim""
+#
+#Portal structure is 
+#
+#Bottom : Glass
+#Middle : Spruce Log
+#Top : Brown Mushroom
+#
+#Right click on spruce log! to travel.
+#Will take you to world spawn
+#
+#
+#Difficulty Changes for the TestDim Dimension
+#
+#All spawned entites have strength 2 for an hour
+#There is a 10% chance that lightning will strike a creeper when it spawns
+#All xp orbs will reward the player a minimum of 1 level, regardless of actual value
+#
+options:
+	version: 1.1.0
+
+on script load:
+	send "&b[Skript] ThunderMountainSkript &6{@version} &bLoaded" to console
+
+on spawn:
+	if event-world is "TestDim":
+		apply strength 4 to event-entity for 900 seconds
+		apply absorption to event-entity for 900 seconds
+		apply health boost to event-entity for 900 seconds
+		heal event-entity
+		equip event-entity with any armor
+	else:
+		stop
+
+on spawn of creeper:
+	if event-world is "TestDim":
+		chance of 10%:
+			strike lightning at event-entity
+			apply potion of fire resistance to event-entity for 10 seconds
+	else:
+		stop
+
+on player pickup xp:
+	if event-world is "TestDim":
+		add 1 to level of player
+
+on death:
+	if event-world is "TestDim":
+		if event-entity is not a player:
+			chance of 90%:
+				chance of 8%:
+					drop diamond at victim
+				chance of 15%:
+					drop gold ingot at victim
+				chance of 20%:
+					drop iron ingot at victim
+
+#This section plays a sound when travelling between "TestDim" and "survival"
+
+on player world change:
+	if world is "TestDim":
+		if previous world is "survival":
+			play sound "ambient.soul_sand_valley.mood" with volume 10 at the player
+	if world is "survival":
+		if previous world is "TestDim":
+			play sound "ambient.soul_sand_valley.mood" with volume 10 at the player
+
+on portal create:
+	if event-world is "TestDim":
+		cancel event
+
+on player portal:
+	if event-world is "TestDim":
+		cancel event

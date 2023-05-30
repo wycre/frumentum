@@ -1,0 +1,41 @@
+options:
+	version: 1.0.0
+
+on script load:
+    send "&b[Skript] ShulkerPreserve &6{@version} &bLoaded" to console
+on item despawn:
+    if item is shulker box:
+        cancel event
+    else if item is white shulker box:
+        cancel event
+    else if item is orange shulker box:
+        cancel event
+    else if item is magenta shulker box:
+        cancel event
+    else if item is light blue shulker box:
+        cancel event
+    else if item is yellow shulker box:
+        cancel event
+    else if item is lime shulker box:
+        cancel event
+    else if item is pink shulker box:
+        cancel event
+    else if item is gray shulker box:
+        cancel event
+    else if item is light gray shulker box:
+        cancel event
+    else if item is cyan shulker box:
+        cancel event
+    else if item is purple shulker box:
+        cancel event
+    else if item is blue shulker box:
+        cancel event
+    else if item is brown shulker box:
+        cancel event
+    else if item is green shulker box:
+        cancel event
+    else if item is red shulker box:
+        cancel event
+    else if item is black shulker box:
+        cancel event
+        

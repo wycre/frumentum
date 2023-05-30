@@ -1,0 +1,9 @@
+# gives a player all recipes on first join
+options:
+	version: 1.0.0
+
+on script load:
+	send "&b[Skript] GiveAllRecipe &6{@version} &bLoaded" to console
+
+on first join:
+  execute console command "/minecraft:recipe give @a *"
